@@ -82,3 +82,8 @@ This v7.0 declaration formalizes the ownership of:
 2. USAGE & CITATION
 
 Any academic or commercial use must credit: Anagnostakis, I. (2026). Caphtor-Minoan Decipherment Method v7.0.
+
+
+```
+Anagnostakis, I. (2026). Caphtor-Minoan Method — Version 7.0: Deciphering Linear A and the Phaistos Disc (v7.0) [Markdown file]. Zenodo. https://doi.org/10.5281/zenodo.18754741
+```
