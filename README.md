@@ -87,3 +87,16 @@ Any academic or commercial use must credit: Anagnostakis, I. (2026). Caphtor-Min
 ```
 Anagnostakis, I. (2026). Caphtor-Minoan Method — Version 7.0: Deciphering Linear A and the Phaistos Disc (v7.0) [Markdown file]. Zenodo. https://doi.org/10.5281/zenodo.18754741
 ```
+
+```
+@misc{anagnostakis_2026_18754741,
+  author       = {Anagnostakis, Ioannis},
+  title        = {ΜΕΘΟΔΟΣ CAPHTOR-MINOAN - ΕΚΔΟΣΗ 7.0},
+  month        = feb,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {7.0},
+  doi          = {10.5281/zenodo.18754741},
+  url          = {https://doi.org/10.5281/zenodo.18754741},
+}
+```
