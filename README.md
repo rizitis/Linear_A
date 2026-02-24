@@ -1,7 +1,6 @@
 1. Caphtor Minoan Method to read Linear A
 2. Decrypt Phaistos Disc which also gave rise to Linear A
-3. Με κανονες και χρήση «Κριτηρίου Επαληθευσιμότητας Caphtor-Validator».
-4. H Κυπριακή αναφορά ΕΙΝΑΙ η Ροζέτα μας: Linear A → Κυπρο-Μινωική → Κυπριακό Συλλαβάριο 
+3. Με κανονες και χρήση «Κριτηρίου Επαληθευσιμότητας Caphtor-Validator» την Κυπριακή αναφορά ως τη Ροζέτα μας: Linear A → Κυπρο-Μινωική → Κυπριακό Συλλαβάριο 
 
 ---
 
