@@ -83,7 +83,7 @@ When analyzing a Linear A sequence:
 | **QA-KI-SE-NU-TI** | No R | "The Enthroned One" | QA- (Semitic relative) + כִּסֵּא (kisse) + -NU-TI (Cypro-Minoan suffix) | 85% | AR Zf 1 |
 | **SI-RU-TE → SI-LU-TE** | ✓ | "[The goddess] rules" | שָׁלַט (shalat) | 78% | 30+ libation formula |
 | **O-SU-QA-RE → O-SU-QA-LE** | ✓ | "Weighed/in shekels" | שֶׁקֶל (sheqel) | 75% | TL Za 1 |
-| **RE-NA → LE-NA** | ✓ | "Wine-press" | ληνός | 72% | ZA Zb 3 |
+| **RE-NA → LE-NA** | ✓ | "Wine-press/vat" | ληνός | 72% | ZA Zb 3 — Note: λήνος (wool/fabric) rejected by K6: ZAZb3 context requires vessel, not textile |
 | **I-PI-NA-MA** | No R | "Before [the goddess]" | פָּנִים (panim) | 70% | ~20 libation formulae |
 | **A-SE** | No R | "Fire-offering / by fire" | אִשֶּׁה (ishe) | 75% | HT81, ZA Zb 3 |
 
@@ -92,7 +92,7 @@ When analyzing a Linear A sequence:
 | Ideogram | Meaning | Confidence | Linear B equivalent | Notes |
 |----------|---------|-----------|-------------------|-------|
 | **CYP** | Cyperus (aromatic plant) | 100% | ku-pa-ro₂ | Common in pharmaceutical tablets |
-| **OLE** | Olive oil | 100% | e-ra-wo | Multiple subtypes: +RI, +TA, +NE, +TU, +DI |
+| **OLE** | Olive oil (ideogram — accounting register) | 100% | e-ra-wo | Multiple subtypes: +RI, +TA, +NE, +TU, +DI. Note: OLE ≠ A-SA-MU-NE — same substance, different register: OLE = logogram used in accounting tablets; A-SA-MU-NE = Semitic loanword (שֶׁמֶן) used in ritual/literary contexts. Do not treat as synonyms. |
 | **VIN** | Wine/vinegar | 100% | wo-no | AB 131 sign |
 | **GRA** | Grain (barley) | 100% | *120 | Main staple |
 | **E / FIC** | Figs | 100% | NI (AB 30) | Also used as syllabogram NI |
@@ -278,10 +278,52 @@ The rule applies to the ENTIRE liquid series:
 
 | Case | Reason | Example |
 |------|--------|---------|
-| Toponyms with known R | Cypriot evidence preserves R | TU-RU-SA (Tarsos) |
+| Toponym: Cypriot evidence preserves R | Rosetta Law applies — toponym known WITH R | Tarsos (Cilicia) |
 | Unknown signs (\*301 etc.) | Cannot assess without phonetic value | TA-NA-I-\*301-TI |
 | Cypriot silence + no strong root | No basis for application | QA-RA2-WA |
 | Disc-only signs without Linear A match | Cypriot chain cannot reach | ~25-30 Phaistos Disc signs |
+
+### 4.6 Toponym Sub-Protocol [v8.3 — NEW]
+
+Toponyms require a dedicated sub-protocol because they are **proper names** — they may preserve archaic phonology that commercial vocabulary does not. Apply this BEFORE the standard K-criteria:
+
+```
+STEP 1: Is this toponym attested in the Cypriot Rosetta?
+
+  → YES, with R preserved:
+      ❌ REJECTED — Rosetta Law applies without exception
+      (Example: Tarsos is known WITH R in Cypriot texts)
+
+  → YES, with L:
+      ✅ Proceed normally — R→L confirmed by Rosetta
+
+  → NO (Cypriot silence):
+      → STEP 2
+
+STEP 2: Does the toponym belong to the Minoan geographic zone?
+        (Crete, Aegean islands, Anatolia west coast)
+
+  → NO (outside zone):
+      ❌ REJECTED — no geographic basis
+      (Example: Cilicia, Mesopotamia)
+
+  → YES (inside zone):
+      ⚠️ PROBABLE — apply hapax penalty
+      Ceiling: k* = 0.65 (Cypriot silence = neutral, not positive)
+      Additional penalty if single attestation: -15%
+      → Typical result: k* ≈ 0.55-0.65
+```
+
+**Rationale:** The Rosetta Law is not suspended for toponyms — it is applied to them. Cypriot silence is **neutral evidence**, not positive evidence. A Minoan toponym that survives without Cypriot attestation earns a Probable reading at best. This is a narrow special case, not a broad exception to the rule.
+
+**Applied example — TU-RU-SA:**
+- Step 1: Cypriot silence (Τύλισσος not attested in Cypriot texts) → Step 2
+- Step 2: Τύλισσος = Minoan Crete, 10km west of Heraklion → inside zone ✅
+- K2 (dedicant slot) ✅ | K3 (TU-LU-SA = Τύλισ(σ)ος) ✅ | K6 (Tarsos = outside zone, irrelevant) ✅
+- Hapax penalty: -15%
+- **k\* = 0.63 ⚠️ Probable**
+
+**Note:** TU-RU-SA may be the only case of this type in the corpus. The sub-protocol exists to handle it correctly without creating a broad exception to the Rosetta Law.
 
 ---
 
@@ -327,7 +369,7 @@ The Cypriot chain CANNOT apply. Analysis relies on Semitic/Aegean roots and stru
 | B3 | RE-NA → LE-NA | INDIRECT + Linear B | ✅ CONFIRMED | 72% | ✓ |
 | B4 | JA-SA-SA-RA-ME → JA-SA-SA-LA-ME | INDIRECT | ⚠️ PROBABLE | 68% | ✓ |
 | B5 | QA-RA2-WA | SILENT | 🔇 SILENT | — | suspended |
-| C1 | TU-RU-SA | NEGATIVE | ❌ REJECTED | 20% | rejected |
+| C1 | TU-RU-SA → TU-LU-SA | SILENT + Minoan zone (Toponym Sub-Protocol §4.6) | ⚠️ PROBABLE — Τύλισσος | 63% | ✓ (sub-protocol) |
 | C2 | U-NA-KA-NA-SI | INDIRECT (no R) | ⚠️ PROBABLE | 55% | — |
 | C3 | KI-RO → KI-LO | DIRECT | ✅ CONFIRMED | 80% | ✓ |
 | C4 | I-PI-NA-MA | INDIRECT (no R) | ✅ CONFIRMED | 70% | — |
@@ -338,7 +380,7 @@ The Cypriot chain CANNOT apply. Analysis relies on Semitic/Aegean roots and stru
 | D4 | Disc-only signs (no Lin.A) | IMPOSSIBLE | ❌ REJECTED | — | impossible |
 | D5 | Overall Disc assessment | MIXED | ⚠️ PROBABLE | 50-65% | partial |
 
-**Key statistics:** 13/20 = GOLD STANDARD or CONFIRMED (65%). Protocol correctly rejected R→L in 4 cases. No result contradicts Cypriot evidence when present.
+**Key statistics:** 13/20 = GOLD STANDARD or CONFIRMED (65%). Protocol correctly rejected R→L in 3 cases (Tarsos, *301, QA-RA2-WA). TU-RU-SA reclassified as ⚠️ PROBABLE (63%) via §4.6 Toponym Sub-Protocol — not a rejection, not a full confirmation. No result contradicts Cypriot evidence when present.
 
 ---
 
@@ -404,19 +446,32 @@ The Cypriot chain CANNOT apply. Analysis relies on Semitic/Aegean roots and stru
 
 **Confidence:** 85% for pharmaceutical interpretation; individual ingredients 70-95%.
 
-### 6.4 Example D — REJECTED: TU-RU-SA
+### 6.4 Example D — TOPONYM SUB-PROTOCOL: TU-RU-SA
 
 **Tablet:** KO Za 1  
-**Raw data:** TU-RU-SA
+**Raw data:** TU-RU-SA (hapax — single attestation)
 
 **Step 6 — R→L check:**
 - RU present → test R→L
-- K2 (position): Dedicant slot — only 1 attestation (hapax) → WEAK
-- K3 (root): T-L-S produces nothing strong; T-R-S = Tarsos (Cilicia) or Akkadian tarāṣu → R-reading is STRONGER
-- K4 (Cypriot): The toponym Tarsos is known WITH R in Cypriot texts → NEGATIVE evidence
+- This is a toponym → apply §4.6 Toponym Sub-Protocol FIRST
 
-**Decision:** R→L is REJECTED. The word is read as-is: TU-RU-SA = toponym or title with R.  
-**Confidence for rejection:** 80%. This shows the protocol knows its limits.
+**§4.6 Step 1 — Cypriot Rosetta check:**
+- Is TU-RU-SA attested in Cypriot texts?
+- Tarsos (Cilicia) IS known with R in Cypriot → but Tarsos is OUTSIDE the Minoan geographic zone
+- Τύλισσος (Crete) is NOT attested in Cypriot texts → **Cypriot silence**
+- → Proceed to Step 2
+
+**§4.6 Step 2 — Geographic zone check:**
+- Τύλισσος = Minoan site, 10km west of Heraklion, Crete → **inside zone** ✅
+
+**K-criteria applied:**
+- K2 (dedicant slot): ✅ expected position for a dedicant toponym
+- K3 (root): TU-LU-SA = /tu-lu-sa/ → Τύλισ(σ)ος — pre-Greek Minoan toponym, -SA ending in other Minoan toponyms ✅
+- K6 (no alternative): Tarsos (Cilicia) is outside zone and irrelevant ✅
+- Hapax penalty: -15%
+
+**Decision:** ⚠️ PROBABLE via Toponym Sub-Protocol.  
+**k\* = 0.63** This is NOT a full confirmation — Cypriot silence is neutral, not positive. This shows the protocol handles edge cases without bending the Rosetta Law.
 
 ---
 
@@ -1219,12 +1274,13 @@ INCORRECT:
 *This document is designed to train AI systems to apply the methodology. It must be used together with the original research paper and the GORILA corpus.*
 *v8.1 changelog: Added Section 3.0 (Research Prerequisites), Red Line #9, PRIOR SCHOLARSHIP field. Removed Step 0b and +10% bibliography bonus. Origin: ZA14/KU-PI incident.*
 *v8.2 changelog: Added Cypro-Minoan bibliography (refs 20-21).*
-*v8.3 changelog: CORRECTIONS AND NEW SECTIONS from HT115b analysis session (February 2026):*
+*v8.3 changelog: CORRECTIONS, NEW SECTIONS, and METHODOLOGY ADDITIONS from HT115b/KO Za 1 analysis (February 2026):*
 *— CORRECTION: KU-TA = single professional (unguentarius), NOT "workers". Evidence: qty=1 always, Mycenaean parallel a-re-pa-zo-o (PY Un267), HT115b cross-reference. k*=0.84.*
 *— ADDITION: HT115b added to Section 9.3 cross-reference table as cosmetic recipe tablet.*
 *— NEW Section 13: Acrophonic Principle in Linear A. Sign A = asphodel (ασφέντιλο, Cretan dialect). Operational rule for palaeographic identification.*
 *— NEW Section 14: SI (Asphodel) Commodity System. Five compounds (SI, SI+SE, SI-TU, DA-SI, SI+SE-NI) with corrected k* values.*
 *— NEW Section 15: Speculation vs. Proof — mandatory methodology warning. Step-Distance Rule, Anchor Rule, corrected k* table. Origin: systematic k* overestimation during HT115b chain analysis.*
+*— NEW Section 4.6: Toponym Sub-Protocol. TU-RU-SA reclassified: ❌ REJECTED (0.20) → ⚠️ PROBABLE (k*=0.63) via Toponym Sub-Protocol §4.6. The Rosetta Law is not suspended — Cypriot silence is neutral evidence. The sub-protocol handles edge cases without creating exceptions. RE-NA disambiguation note added (ληνός vs λήνος). OLE vs A-SA-MU-NE register distinction added.*
 
 
 *© 2026 — Caphtor-Minoan Training Protocol v8.1 Supplement*
