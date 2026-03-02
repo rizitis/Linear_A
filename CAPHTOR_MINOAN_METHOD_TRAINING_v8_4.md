@@ -1044,6 +1044,7 @@ The acrophonic principle states that a sign's **phonetic value = the first sound
 ```
 Cretan name:  Άρτηκας
 Greek:        Νάρθηκας
+Akkadian:     ašû
 Latin:        Ferula communis
 Family:       Umbelliferae (celery, dill, anise family)
 
