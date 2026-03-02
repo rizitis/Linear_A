@@ -1086,87 +1086,14 @@ BEHAVIORAL ANALYSIS:
 
 ---
 
+## SECTION 13
 
----
+ΑΦΑΙΡΕΘΗΚΕ: §13 — Ακροφωνική Αρχή (ολόκληρο)
+ΑΙΤΙΑ: Το αρχαίο όνομα Ferula communis = νάρθηξ (Ν, όχι Α).
+       Καμία Pre-Greek/Σημιτική ρίζα με αρχικό /a-/ δεν τεκμηριώνεται.
+       Ο Κανόνας Βήμα-Απόστασης εφαρμόστηκε — αυτοδιόρθωση.
+ΑΝΑΛΛΟΙΩΤΟ: §14 Σύστημα SI (ανεξάρτητη τεκμηρίωση)
 
-## SECTION 13 — ACROPHONIC PRINCIPLE IN LINEAR A
-### New Discovery — February 2026
-
-### 13.1 The Principle
-
-The acrophonic principle states that a sign's **phonetic value = the first sound of the Minoan word for the object it depicts**. This is well established in Egyptian hieroglyphics and the Phoenician alphabet. February 2026 analysis confirmed it applies to Linear A as well.
-
-> **Palaeographic implication:** The shape of a sign is EVIDENCE for its meaning and phonetic value. Palaeography and semantics are not independent.
-
-### 13.2 The Discovery — Sign A = Ferula communis (Artikas)
-
-> **⚠️ Botanical Correction (March 2026):** Earlier versions identified Sign A with *Asphodelus aestivus* (asphodel). Correct identification: ***Ferula communis*** (Άρτηκας/Νάρθηκας). k* upgraded 0.81 → **0.90**. Evidence: aromatic resin consistent with SA-RA₂ cluster; ZA20 SI-TU next to AROM; 92 dedicated nodules HTWa1175–1266; MYZf1 export; Prometheus myth (hollow Ferula stem = fire carrier).
-
-**Observation:** The sign A depicts a plant with:
-- Rosette of strap-shaped leaves with sharp terminal spine
-- Central stem rising tall from the rosette
-- Leaves remaining at base while stem rises independently
-
-**Identification:** *Ferula communis* — giant fennel (Greek: **Άρτηκας / Νάρθηκας**)
-
-```
-Cretan name:  Άρτηκας
-Greek:        Νάρθηκας
-Latin:        Ferula communis
-Family:       Umbelliferae (celery, dill, anise family)
-
-First sound /a/ -> Sign A = acrophony confirmed
-(Artikas -> /a/)
-
-k* = 0.90
-
-Triple significance of Sign A / Ferula:
-  1. Aromatic/pharmaceutical: resin; F.gummosa = galbanum (Exodus 30:34)
-  2. Fire-carrier: hollow stem = Prometheus fire technology
-  3. Alphabetic: Sign A = first sign of Linear A
-=> Ferula is literally 'the A of civilization'
-```
-
-**Why the Cretan dialect matters:** The Cretan dialect preserves pre-Greek (Minoan) substrate vocabulary that was replaced elsewhere in Greece. When searching for a Minoan word, **check Cretan dialect first**, then Ancient Greek, then other dialects.
-
-### 13.3 The Discovery — Sign SI = Related Plant
-
-Sign SI depicts a similar plant form. With 118 instances it is a basic staple commodity — clearly a local, abundant plant. The SI system (see Section 14) confirms this identification through behavioral analysis.
-
-### 13.4 Operational Rule
-
-```
-When analyzing an unidentified pictographic sign:
-
-STEP 1: What object does it depict?
-         (plant / animal / tool / body part)
-
-STEP 2: What is the Cretan dialect word for it?
-         → Check Cretan dialect FIRST
-
-STEP 3: Does the first sound of that word
-         match the known phonetic value of the sign?
-
-STEP 4: Is the object local to Crete / abundant?
-         (local = higher k*)
-
-STEP 5: Does the object's known uses match
-         the tablet context?
-
-If YES to 3+ of these → apply acrophonic identification
-```
-
-### 13.5 What Is NOT Proven
-
-```
-❌ That ALL Linear A signs follow acrophony
-   (only demonstrated for A and SI so far)
-❌ The exact Minoan word for Ferula/Artikas
-   (we know it starts with /a-/)
-❌ That the pictographic shape of Sign A
-   definitively proves Ferula vs. other tall plants
-   (K7 palaeographic verification pending)
-```
 
 ---
 

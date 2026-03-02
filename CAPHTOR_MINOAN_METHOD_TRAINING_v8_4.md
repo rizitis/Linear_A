@@ -1,6 +1,6 @@
 # CAPHTOR-MINOAN METHOD — AI TRAINING PROTOCOL
 ## Complete Operational Manual for Deciphering Linear A and the Phaistos Disc
-### Version 8.3 — February 2026
+### Version 8.4 — March 2026
 
 **Author:** Ioannis Anagnostakis  
 **License:** CC BY 4.0  
@@ -22,8 +22,16 @@ You are receiving this document because you will be asked to analyze Linear A in
 8. **Section 8** — Red Lines (what NEVER to do — including #9: bibliographic check)
 9. **Section 9** — The Pharmaceutical Corpus (case study of a discovery)
 10. **Section 10** — Confidence Scoring System
+11. **Section 11** — Behavioral Archaeology Method (when everything else fails)
+12. **Section 13** — Acrophonic Principle in Linear A
+13. **Section 14** — The SI (Ferula/Artikas) Commodity System
+14. **Section 15** — Speculation vs. Proof: Mandatory Distinctions
+15. **Section 16** — Trilateral Root Analysis Protocol [NEW v8.4]
+16. **Section 17** — New Discovery Protocol + Auxiliary Files + Web Bibliography [NEW v8.4]
 
 **CRITICAL RULE:** Never guess. If you cannot identify something with at least 50% confidence using the protocols below, mark it as UNKNOWN and explain why. Consult existing bibliography before analyzing (Section 3.0) — but only K-criteria validate readings.
+
+**v8.4 CRITICAL ADDITION:** When the user provides auxiliary files (.md, .docx, .pdf, etc.) or URLs or requests web search — READ THEM FIRST and integrate according to Section 17. External files are CONTEXT and potentially EVIDENCE, not replacements for K-criteria validation.
 
 ---
 
@@ -122,7 +130,7 @@ When analyzing a Linear A sequence:
 
 ## SECTION 3 — TABLET READING PROTOCOL
 
-### 3.0 Research Prerequisites [v8.1 — NEW]
+### 3.0 Research Prerequisites [v8.1 — updated v8.4]
 
 **This section describes what to do BEFORE applying the decipherment algorithm. These are not analytical steps of the method — they are standard academic practice. They do not generate k\* scores or satisfy K-criteria. They provide CONTEXT, not CONCLUSIONS.**
 
@@ -131,17 +139,73 @@ Before applying Steps 0-8 to any tablet, consult existing scholarship:
 | Source | What it provides | URL / Reference |
 |--------|-----------------|-----------------|
 | GORILA (Godart & Olivier) | Official transcription, facsimile, notes | Vols. 1-5 (print) |
-| Younger's commentary | Phonetic transcription, scholarly notes per tablet | web archive / lineara.xyz |
+| Younger's commentary | Phonetic transcription, scholarly notes per tablet | https://web.archive.org/web/20240125202540/http://people.ku.edu/~jyounger/LinearA/ |
 | SigLA (Salgarella) | Palaeographic sign data, searchable | sigla.phis.me |
+| lineara.xyz | Searchable corpus explorer | lineara.xyz |
+| linearb.xyz | Mycenaean Linear B parallel search | linearb.xyz |
+| linearc.xyz | Cypro-Minoan corpus | linearc.xyz |
 | Academic literature | Published interpretations, parallels | Scholar search / Academia.edu |
 
-**Rules:**
+**Rules for standard bibliography:**
 - If prior interpretations exist, note them — but they enter the method as **hypotheses to test**, not as validated readings
-- A published interpretation (e.g. Mosenkis 2015: KU-PI = "Cypriot") provides a **direction to investigate**, not a K-criteria score
-- Only the K1-K7 criteria can validate a reading — scholarly consensus without K-criteria remains at the hypothesis level
+- A published interpretation provides a **direction to investigate**, not a K-criteria score
+- Only K1-K7 criteria can validate a reading — scholarly consensus without K-criteria remains at the hypothesis level
 - If you have web search capability, use it — but clearly separate what you FOUND from what the METHOD VALIDATES
 
 **Rationale:** The ZA14/KU-PI incident (Feb 2026) demonstrated that an AI model following the Protocol mechanically but without consulting existing scholarship will: (a) miss existing interpretations, (b) duplicate known work, (c) fail to identify cross-references available only in secondary literature. However, accepting a published reading without K-criteria validation is equally wrong — it replaces one type of error (ignorance) with another (uncritical acceptance).
+
+### 3.0b Auxiliary Files Provided by the User [NEW — v8.4]
+
+When the user provides files (.md, .docx, .pdf, images) or URLs during an analysis session, apply this protocol:
+
+**Step 1 — Identify file type and epistemic weight:**
+
+| File Type | Treatment | K-criterion |
+|-----------|-----------|-------------|
+| GORILA/SigLA/ICS excerpt | Primary source → integrate directly | K1/K4 |
+| Published article/book | Secondary → hypothesis to test | bibliography only |
+| Previous session analysis (HT##_v#.md) | Session context → cross-reference | K2/K3 indirect |
+| Tablet image/photo | Palaeographic evidence | K7 |
+| Ingredient/substance list | Supporting context for Layer 3/4 | auxiliary |
+| Web URL | Fetch → treat as secondary unless primary corpus | varies |
+
+**Step 2 — Read the ENTIRE file BEFORE starting analysis.** Do not begin analyzing a tablet if you have unread auxiliary files — they may contain critical cross-references that alter the analysis.
+
+**Step 3 — Categorize each piece of information by K-criterion:**
+```
+Information provides sign identification → K1/K7
+Information shows structural/positional pattern → K2
+Information provides Mycenaean/Greek parallel → K3
+Information shows Cypriot chain → K4
+Information provides arithmetic verification → K5
+Information shows internal self-consistency → K6
+```
+
+**Step 4 — Attribution rule:** Always cite: «βάσει [filename]» or «κατά [author/GORILA]». Never present external content as your own finding. Mark whether the information upgrades or challenges existing k\* scores.
+
+**Step 5 — Web search during analysis:**
+```
+USE web search when:
+  → Checking if a proposed reading already exists in literature (K0)
+  → Finding ICS reference for Cypriot chain (K4) at linearc.xyz
+  → Looking up Linear B parallel (K3) at linearb.xyz
+  → Verifying botanical/chemical identification (Layer 3/4)
+  → User references a specific publication or URL
+
+DO NOT use web search when:
+  → The information is already in provided files
+  → The question is purely methodological (consult this document)
+  → Arithmetic verification (K5) — this is internal to the tablet
+
+REPORT web results as:
+  «web search: [finding] — entering as hypothesis, requires K-criteria validation»
+  
+TRUST HIERARCHY for web results:
+  linearb.xyz, sigla.phis.me, lineara.xyz → High (corpus data)
+  Cambridge/Oxford academic journals → High (peer-reviewed)
+  Academia.edu, ResearchGate → Medium (unreviewed preprints)
+  Wikipedia, blogs → Low (hypothesis only, k* max 0.45 without K1 confirmation)
+```
 
 ### 3.1 Step-by-Step Algorithm
 
@@ -540,6 +604,10 @@ When you see CYP + \*308 + MI+JA+RU together on a tablet, you are looking at a *
 8. **NEVER apply the Cypriot chain to Disc-only signs.** The chain requires Linear A as an intermediate step. Signs unique to the Phaistos Disc cannot be validated through Cyprus.
 
 9. **NEVER analyze a tablet without checking existing bibliography first.** [v8.1 — NEW] No serious scholar examines an inscription without first consulting GORILA, Younger, SigLA, and published literature. An AI that skips this step will: (a) miss existing interpretations that provide direction, (b) waste effort duplicating known work, (c) fail to identify cross-references available only in secondary literature. **However:** published interpretations enter the method as **hypotheses to test**, not as validated readings. A scholarly proposal that does not satisfy K-criteria remains at k\*<0.50 regardless of who proposed it. The bibliographic check tells you WHERE TO LOOK — the K-criteria tell you WHAT IS TRUE.
+
+10. **NEVER start an analysis while auxiliary files remain unread.** [v8.4 — NEW] If the user has provided files (.md, .docx, .pdf, images) at the beginning of a session or during the analysis, READ ALL OF THEM before producing output. Auxiliary files may contain: (a) previous session analyses that provide critical cross-references, (b) primary source material (GORILA excerpts, ICS citations) that constitutes K1/K4 evidence, (c) ingredient or substance lists that inform Layer 3/4 analysis, (d) images that provide K7 palaeographic verification. An analysis that ignores provided files will miss evidence that could change the k\* score significantly. Apply Section 3.0b for the correct integration protocol.
+
+11. **NEVER present a speculative inference chain as a confirmed finding.** [v8.4 — reminder] Apply Section 15 (Step-Distance Rule) systematically. Each step away from confirmed evidence lowers the k\* ceiling. A chain of four logical steps starting from a k\*=0.90 anchor does not produce a k\*=0.90 conclusion — it produces k\*≤0.35. Label all inference levels explicitly.
 
 ### 8.2 Common Errors to Avoid
 
@@ -1018,88 +1086,14 @@ BEHAVIORAL ANALYSIS:
 
 ---
 
+## SECTION 13
 
----
+ΑΦΑΙΡΕΘΗΚΕ: §13 — Ακροφωνική Αρχή (ολόκληρο)
+ΑΙΤΙΑ: Το αρχαίο όνομα Ferula communis = νάρθηξ (Ν, όχι Α).
+       Καμία Pre-Greek/Σημιτική ρίζα με αρχικό /a-/ δεν τεκμηριώνεται.
+       Ο Κανόνας Βήμα-Απόστασης εφαρμόστηκε — αυτοδιόρθωση.
+ΑΝΑΛΛΟΙΩΤΟ: §14 Σύστημα SI (ανεξάρτητη τεκμηρίωση)
 
-## SECTION 13 — ACROPHONIC PRINCIPLE IN LINEAR A
-### New Discovery — February 2026
-
-### 13.1 The Principle
-
-The acrophonic principle states that a sign's **phonetic value = the first sound of the Minoan word for the object it depicts**. This is well established in Egyptian hieroglyphics and the Phoenician alphabet. February 2026 analysis confirmed it applies to Linear A as well.
-
-> **Palaeographic implication:** The shape of a sign is EVIDENCE for its meaning and phonetic value. Palaeography and semantics are not independent.
-
-### 13.2 The Discovery — Sign A = Ferula communis (Artikas)
-
-> **⚠️ Botanical Correction (March 2026):** Earlier versions identified Sign A with *Asphodelus aestivus* (asphodel). Correct identification: ***Ferula communis*** (Άρτηκας/Νάρθηκας). k* upgraded 0.81 → **0.90**. Evidence: aromatic resin consistent with SA-RA₂ cluster; ZA20 SI-TU next to AROM; 92 dedicated nodules HTWa1175–1266; MYZf1 export; Prometheus myth (hollow Ferula stem = fire carrier).
-
-**Observation:** The sign A depicts a plant with:
-- Rosette of strap-shaped leaves with sharp terminal spine
-- Central stem rising tall from the rosette
-- Leaves remaining at base while stem rises independently
-
-**Identification:** *Ferula communis* — giant fennel (Greek: **Άρτηκας / Νάρθηκας**)
-
-```
-Cretan name:  Άρτηκας
-Greek:        Νάρθηκας
-Akkadian:     ašû
-Latin:        Ferula communis
-Family:       Umbelliferae (celery, dill, anise family)
-
-First sound /a/ -> Sign A = acrophony confirmed
-(Artikas -> /a/)
-
-k* = 0.90
-
-Triple significance of Sign A / Ferula:
-  1. Aromatic/pharmaceutical: resin; F.gummosa = galbanum (Exodus 30:34)
-  2. Fire-carrier: hollow stem = Prometheus fire technology
-  3. Alphabetic: Sign A = first sign of Linear A
-=> Ferula is literally 'the A of civilization'
-```
-
-**Why the Cretan dialect matters:** The Cretan dialect preserves pre-Greek (Minoan) substrate vocabulary that was replaced elsewhere in Greece. When searching for a Minoan word, **check Cretan dialect first**, then Ancient Greek, then other dialects.
-
-### 13.3 The Discovery — Sign SI = Related Plant
-
-Sign SI depicts a similar plant form. With 118 instances it is a basic staple commodity — clearly a local, abundant plant. The SI system (see Section 14) confirms this identification through behavioral analysis.
-
-### 13.4 Operational Rule
-
-```
-When analyzing an unidentified pictographic sign:
-
-STEP 1: What object does it depict?
-         (plant / animal / tool / body part)
-
-STEP 2: What is the Cretan dialect word for it?
-         → Check Cretan dialect FIRST
-
-STEP 3: Does the first sound of that word
-         match the known phonetic value of the sign?
-
-STEP 4: Is the object local to Crete / abundant?
-         (local = higher k*)
-
-STEP 5: Does the object's known uses match
-         the tablet context?
-
-If YES to 3+ of these → apply acrophonic identification
-```
-
-### 13.5 What Is NOT Proven
-
-```
-❌ That ALL Linear A signs follow acrophony
-   (only demonstrated for A and SI so far)
-❌ The exact Minoan word for Ferula/Artikas
-   (we know it starts with /a-/)
-❌ That the pictographic shape of Sign A
-   definitively proves Ferula vs. other tall plants
-   (K7 palaeographic verification pending)
-```
 
 ---
 
@@ -1281,7 +1275,7 @@ INCORRECT:
 21. Ferrara, S. (2013). *Cypro-Minoan Inscriptions. Volume 2: The Corpus*. Oxford University Press. [Πλήρης αρχαιολογικός κατάλογος όλων των επιγραφών — συμπλήρωμα του Vol. 1]
 ---
 
-*© 2026 Ioannis Anagnostakis — Caphtor-Minoan v8.3 — CC BY 4.0*
+*© 2026 Ioannis Anagnostakis — Caphtor-Minoan v8.4 — CC BY 4.0*
 *This document is designed to train AI systems to apply the methodology. It must be used together with the original research paper and the GORILA corpus.*
 *v8.1 changelog: Added Section 3.0 (Research Prerequisites), Red Line #9, PRIOR SCHOLARSHIP field. Removed Step 0b and +10% bibliography bonus. Origin: ZA14/KU-PI incident.*
 *v8.2 changelog: Added Cypro-Minoan bibliography (refs 20-21).*
@@ -1292,10 +1286,299 @@ INCORRECT:
 *— NEW Section 14: SI (Ferula/Artikas) Commodity System. Five compounds; SI-TU = root/latex; DA-SI = dried root. k* 0.81→0.90.*
 *— BOTANICAL CORRECTION (March 2026): Sign A and SI = Ferula communis, NOT Asphodelus aestivus. Triple significance: aromatic + fire-carrier (Prometheus) + alphabetic = 'the A of civilization'.*
 *— NEW Section 15: Speculation vs. Proof — mandatory methodology warning. Step-Distance Rule, Anchor Rule, corrected k* table. Origin: systematic k* overestimation during HT115b chain analysis.*
-*— NEW Section 4.6: Toponym Sub-Protocol. TU-RU-SA reclassified: ❌ REJECTED (0.20) → ⚠️ PROBABLE (k*=0.63) via Toponym Sub-Protocol §4.6. The Rosetta Law is not suspended — Cypriot silence is neutral evidence. The sub-protocol handles edge cases without creating exceptions. RE-NA disambiguation note added (ληνός vs λήνος). OLE vs A-SA-MU-NE register distinction added.*
+*— NEW Section 4.6: Toponym Sub-Protocol. TU-RU-SA reclassified: ❌ REJECTED (0.20) → ⚠️ PROBABLE (k*=0.63) via Toponym Sub-Protocol §4.6.*
+*v8.4 changelog: NEW SECTIONS and PROTOCOL EXTENSIONS from HT91 Trilateral Analysis (March 2026):*
+*— NEW Section 16: Trilateral Root Analysis Protocol (TRAP). Five-layer chain (Linear A → Cypriot → Linear B → Greek → Semitic). Classification: 4-Layer Wanderwort / Gold Standard Tier A / Confirmed / Probable / Broken / Semitic Candidate. Logographic Discontinuity rule (FIC/NI → SU-ZA first documented case). k* implications per chain type.*
+*— NEW Section 17: New Discovery Protocol + Auxiliary Files + Web Bibliography. Full algorithm for processing new findings. How to start and end an analysis (mandatory checklists). Three-level intellectual honesty framework. Reporting templates Types A-D.*
+*— UPDATED Section 3.0 → 3.0 + 3.0b: Auxiliary Files Protocol. File type classification. K-criterion mapping. Web search trust hierarchy. Attribution rules.*
+*— UPDATED Section 8: Red Lines #10 (auxiliary files) and #11 (inference chains) added.*
+*— HT91 worked examples added to Section 16.5: seven-ingredient formula, VINa (4-Layer), OLIV (Tier A RA→LA), OLE+MI (Confirmed PIE), OLE+U (Tier A), *304 (Semitic candidate), FIC/NI (Broken).*
+*— Cypriot Rosetta v4: Tier A list extended (ELAI-). Gold+Confirmed rate: 65% → 79% (24 cases).*
 
 
 *© 2026 — Caphtor-Minoan Training Protocol v8.1 Supplement*
 *Section 11 developed from SA-RA₂ corpus analysis, February 2026*
 *Method origin: systematic behavioral observation of 20+ Hagia Triada tablets*
 *CC BY 4.0 — may be incorporated into v8.2 or later versions of the main protocol*
+
+---
+
+## SECTION 16 — TRILATERAL ROOT ANALYSIS PROTOCOL [NEW — v8.4]
+
+### 16.1 When to Apply
+
+Apply the Trilateral Root Analysis Protocol (TRAP) to:
+- Any commodity logogram appearing in recipe context (§9 Level 1-2 tablets)
+- Any OLE+X compound where X has a known syllabic value
+- Any substance name where Layer 3 (Aegean) or Layer 4 (Semitic) analysis is inconclusive
+- After a new commodity identification to test whether it holds across all five layers
+
+Do NOT apply TRAP to: administrative terms (KU-RO, SA-RA₂), toponyms, theonyms, personal titles. For these: use §11 (Behavioral Archaeology) or §4.6 (Toponym Sub-Protocol).
+
+### 16.2 The Five-Layer Protocol
+
+For each ingredient/commodity, complete this analysis IN ORDER:
+
+```
+LAYER 0 — Linear A (substrate):
+  Q: Does the logogram have a syllabic spelling in Linear A?
+  IF YES → record as Layer 0 syllabic evidence
+  IF NO  → record as "Layer 0: logogram only"
+  Criteria: K1 (GORILA), K7 (palaeography)
+  Note: if logogram = compound (OLE+X), the X sign IS the Layer 0 syllabic value
+
+LAYER 1 — Cypriot Syllabary (phonetic bridge):
+  Q: Does the root appear in the Cypriot Syllabary (ICS)?
+  Tier A: sign in confirmed Tier A list: I, DA, MA, TE, U, KO, QE, SI, DI, ELAI-
+  Tier B: proven correspondence outside Tier A (attested in ICS with clear parallel)
+  Tier C: INDIRECT — sign present in Cypriot but no direct root correspondence
+  ABSENT: no testimony
+  Criteria: K4, ICS (Masson 1961)
+
+LAYER 2 — Mycenaean Linear B (institutional continuity):
+  Q: Is there a Linear B syllabic form or compound for this substance?
+  Gold Standard: identical word confirmed in Linear B + ICS cross-reference
+  Confirmed: identical word in Linear B without ICS
+  Parallel: same root, different compound
+  Absent: not found
+  Criteria: K3 (linearb.xyz for search), K5 (if quantitative)
+
+LAYER 3 — Greek (linguistic endpoint):
+  Q: What Greek word corresponds? What etymology?
+  PIE: traces to Proto-Indo-European root (*melit-, *woinos, *wódr̥, etc.)
+  Pre-Greek: Aegean substrate word without PIE etymology = MINOAN LOANWORD into Greek
+  Semitic-loan: borrowed from Semitic stratum into Greek
+  Unknown: no etymology established
+  Criteria: K2 (internal functional coherence), K3 (Classical attestation)
+  
+LAYER 4 — Semitic (trade network):
+  Q: Is there a Semitic cognate (Hebrew/Akkadian/Phoenician/Ugaritic)?
+  Cognate: same root (Hebrew, Akk, Phoenician, Ugaritic)
+  Loanword: Greek borrowed from Semitic
+  Wanderwort: bidirectional PIE↔Semitic cultural loan (e.g. wine/oinos/yayin)
+  None: no connection
+  Criteria: K2 (commercial context), external bibliography (BDB, HALOT)
+```
+
+### 16.3 Chain Classification and k\* Implications
+
+| Result | Conditions | k\* ceiling (trilateral) |
+|--------|------------|--------------------------|
+| ★★ 4-LAYER Wanderwort | Layers 1+2+3+4 all confirmed | 0.95 |
+| ★ GOLD STANDARD Tier A | Layers 1(TierA)+2+3, Layer 4 absent | 0.92 |
+| ✅ CONFIRMED | Layers 1(TierB/C)+2+3, Layer 4 absent | 0.85 |
+| ⚠️ PROBABLE | Layer 1 indirect, Layer 2 parallel | 0.65 |
+| ❌ CHAIN BROKEN | Layer 1 absent OR logographic discontinuity | 0.40 |
+| ⚙️ SEMITIC CANDIDATE | Layers 1+2 absent, Layer 4 strong | 0.55 |
+
+**IMPORTANT:** The trilateral k\* applies ONLY to the root chain — not to the commodity identification itself. Example: FIC/NI has commodity k\*=0.95 (GORILA K1) but trilateral k\*=0.30 (chain broken). These are SEPARATE scores.
+
+### 16.4 Logographic Discontinuity
+
+A logographic discontinuity occurs when Linear A logogram L_A ≠ Linear B logogram L_B for the SAME identified commodity:
+
+```
+DETECTION:
+  Linear A: NI (*47) = FIC (σύκο) — commodity k*=0.95 via GORILA
+  Linear B: SU-ZA (KN Gv 863) = σῦκον — Gold Standard
+  But: NI ≠ SU-ZA → the sign was NOT inherited
+
+CONSEQUENCE:
+  → Trilateral chain broken at Layer 1
+  → Trilateral k* cannot exceed 0.40
+  → Commodity identification k* is UNAFFECTED
+  → Interpretation: Linear A may have had a DIFFERENT word for this substance
+    than what Classical Greek inherited
+
+REPORTING:
+  «NI = FIC (σύκο): commodity k*=0.95 [K1 GORILA]
+   Trilateral chain: ❌ BROKEN — logographic discontinuity (NI vs SU-ZA)
+   Trilateral k*=0.30. This indicates possible lexical discontinuity between
+   Minoan and Mycenaean nomenclature for Ficus carica.»
+```
+
+### 16.5 Worked Examples from HT91
+
+| Ingredient | Layer 0 | Layer 1 | Layer 2 | Layer 3 | Layer 4 | Chain |
+|------------|---------|---------|---------|---------|---------|-------|
+| VINa | VIN logogram | wi-no (ICS) ★ | wo-no (PY Fr 1184) ★ | οἶνος PIE *woinos | yayin Hebr. Wanderwort | ★★ 4-LAYER 0.95 |
+| OLIV | ELAI- | e-la-i-wo (ICS 217) Tier A ★ | e-ra-wo (KN) ★ | ἐλαία Pre-Greek | zayt ❌ | ★ Tier A 0.88 |
+| OLE+MI | MI sign | me-li (ICS 264) Tier B | me-ri (PY Un 2.1) ★ | μέλι PIE *melit- | dəvaš ❌ | ✅ Confirmed 0.90 |
+| OLE+U | U sign Tier A | U (Tier A §5.3) ★ | u-do-ro (PY Ta 711) ★ | ὕδωρ PIE *wódr̥ | mayim ❌ | ★ Tier A 0.78 |
+| OLE+KI | KI sign | INDIRECT ⚠️ | ki-ta-no (MY Ge 604) | κίτανος? | qinnāmôn? | ⚠️ Probable 0.35 |
+| FIC/NI | NI logogram | INDIRECT | SU-ZA (KN) ≠ NI | σῦκον Pre-Gr. | tə'ēnāh ❌ | ❌ Broken 0.30 |
+| \*304 | unknown | ABSENT | ABSENT | λήδανον? | לֹט lōṭ Gen 37:25 | ⚙️ Semitic 0.52 |
+
+---
+
+## SECTION 17 — NEW DISCOVERY PROTOCOL + AUXILIARY FILES + WEB BIBLIOGRAPHY [NEW — v8.4]
+
+### 17.1 What Constitutes a New Finding
+
+A finding is NEW if it satisfies ONE of:
+1. New sign/logogram identification not previously in the corpus
+2. New tablet category not in the typology (§9.2 Level 1-4)
+3. New cross-reference between known tablets (Distance 1 connection)
+4. New trilateral chain that upgrades an existing k\* score
+5. New Cypriot case study (new Tier A or Tier B correspondence)
+6. First documented logographic discontinuity for a commodity
+
+A finding is NOT new if:
+- Already published (check §3.0 first — always)
+- Internal restatement of known identification
+- Does not pass the Step-Distance Rule (§15.2) — then it is speculation, not a finding
+
+### 17.2 Discovery Processing Algorithm
+
+```
+STEP 1 — BIBLIOGRAPHIC CHECK (§3.0):
+  Before anything: search GORILA, SigLA, Younger, web
+  «Has anyone else seen this?»
+  YES → record → enter as hypothesis to test, not as your finding
+  NO  → proceed to Step 2
+
+STEP 2 — K7 PALAEOGRAPHIC VERIFICATION:
+  Confirm you are reading the correct signs
+  K7 impossible → state explicitly → lower k* ceiling by 0.15
+
+STEP 3 — CROSS-REFERENCE CHECK:
+  Search for same pattern in ≥3 tablets
+  Only 1 tablet → hapax penalty -15%
+  3+ tablets → +15% confidence bonus
+
+STEP 4 — APPLY APPROPRIATE PROTOCOL:
+  Commodity → Section 16 (TRAP)
+  Administrative term → Section 11 (Behavioral Archaeology)
+  Toponym → Section 4.6 (Toponym Sub-Protocol)
+  Ritual/dedicatory → Steps 1-8 + Layer 1 Aegean priority
+
+STEP 5 — ASSIGN k\*:
+  Apply Section 15 (Step-Distance Rule) for ceiling
+  Apply Section 10 for bonuses/penalties
+  NEVER inflate k\* — an honest low score is more valuable than a false high score
+
+STEP 6 — REPORT using extended template (§10.4) + new fields:
+  NEW FINDING: [YES/NO — justification]
+  BIBLIOGRAPHIC STATUS: [unpublished / already known / correction of prior reading]
+  CYPRIOT CHAIN STATUS: [Tier A / B / C / Absent / Broken]
+  If new → tag [NEW — v8.4] for incorporation in next version
+```
+
+### 17.3 Reporting Templates for New Findings
+
+**Type A — New Identification:**
+```
+NEW IDENTIFICATION: [sign X] = [identification Y]
+PREVIOUS STATUS: [UNKNOWN / prior hypothesis]
+CURRENT STATUS: [new identification]
+EVIDENCE: [K-criteria satisfied]
+k* BEFORE: [n/a or previous]  →  k* NOW: [new score]
+CYPRIOT: [chain if applicable]
+REQUIRES FOR UPGRADE: [what is needed for higher k*]
+```
+
+**Type B — New Cross-Reference:**
+```
+CONNECTION: [Tablet A] ↔ [Tablet B]
+SHARED PATTERN: [what appears in both]
+CONTRIBUTION: [what this connection proves]
+k* IMPACT: [which existing identification is affected and how]
+```
+
+**Type C — New Cypriot Chain (Rosetta Case Study):**
+```
+SIGN: [X]
+LINEAR A: [usage]
+CYPRIOT: [ICS reference + reading]
+R→L: [applied / not applicable]
+LINEAR B: [parallel if exists]
+TIER: [A / B / C]
+ROSETTA CATEGORY: [A / B / C / D / E]
+SCORE: [%] | VERDICT: [Gold Standard / Confirmed / Probable]
+```
+
+**Type D — Correction:**
+```
+ELEMENT: [what is being corrected]
+OLD k*: [n]  →  NEW k*: [m]
+DIRECTION: [upgrade / downgrade]
+REASON: [which K-criterion changed — e.g. K7 confirmed/rejected]
+IMPACT ON RELATED IDENTIFICATIONS: [if any]
+```
+
+### 17.4 Starting and Ending a Tablet Analysis — Full Checklist
+
+**HOW TO START an analysis:**
+
+```
+□ 1. Read ALL auxiliary files provided by user (§3.0b)
+□ 2. Identify tablet ID → search GORILA transcription (K1)
+□ 3. Check Younger, SigLA, lineara.xyz for existing notes (§3.0)
+□ 4. If image available → K7 palaeographic check (Step 0)
+□ 5. Identify tablet type (§9.2 Level 1-4, or administrative/ritual)
+□ 6. Separate known elements (ideograms, numbers) from unknown syllabograms
+□ 7. Check arithmetic if numbers present (K5)
+□ 8. State K7 status explicitly before proceeding
+□ 9. Apply Steps 1-8 from §3.1
+□ 10. For commodities: apply §16 (TRAP) per ingredient
+□ 11. For new patterns: apply §17.2 discovery algorithm
+```
+
+**HOW TO END an analysis (mandatory closing structure):**
+
+```
+CONCLUSION SECTION must contain:
+
+1. PROPOSED READING (in translation box):
+   [Full proposed translation with ALL elements labeled]
+
+2. CONFIDENCE TABLE:
+   | Element | Identification | k\* | K-criteria | Trilateral |
+   [one row per element]
+
+3. NEW FINDINGS (if any):
+   [NEW — v8.4]: [what was found] | k\*=[score] | [type A/B/C/D]
+
+4. OPEN QUESTIONS:
+   [numbered list of unresolved elements]
+   [what K7/K3/K4 verification would resolve each]
+
+5. CORPUS CONNECTIONS:
+   [list of tablets connected + nature of connection]
+
+6. K7 STATUS:
+   [explicit statement: K7 performed / not performed / partial]
+   [if not performed: which elements need physical verification]
+
+7. BIBLIOGRAPHIC STATUS:
+   [what was checked + any existing interpretations noted]
+```
+
+### 17.5 The Principle of Intellectual Honesty in Reporting
+
+Three levels of output, always clearly labeled:
+
+```
+LEVEL 1 — FACT (k\* ≥ 0.90):
+  Direct evidence from K1+K7 or K1+K5 or K1+K3 (Gold Standard)
+  Example: «VINa = wine: k\*=0.95 — Gold Standard [K1+K5+K3]»
+  Format: state directly as identification
+
+LEVEL 2 — CONFIRMED/PROBABLE (k\* 0.50–0.89):
+  Multiple K-criteria but not all, or Cypriot chain INDIRECT
+  Example: «OLE+MI = honey-oil: k\*=0.90 — Confirmed [K2+K3+K4-indirect]»
+  Format: state as identification, note uncertainty level
+
+LEVEL 3 — HYPOTHESIS (k\* < 0.50):
+  Single K-criterion, Distance 3+, or Cypriot ABSENT
+  Example: «\*304 may represent ladanum (לֹט): k\*=0.52 — Working hypothesis
+            [Semitic Layer 4 only, K1/K4 absent]. Requires: K7 verification
+            of sign form + Linear B parallel for confirmation.»
+  Format: ALWAYS include «may», «possibly», «hypothesis» + requirement for upgrade
+
+FORBIDDEN: stating a Level 3 hypothesis as Level 1 fact.
+FORBIDDEN: stating «k\*=0.80» for something that passes only one K-criterion.
+```
+
+---
+
