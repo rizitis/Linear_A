@@ -204,4 +204,4 @@
 ---
 
 *Caphtor-Minoan Method v8.7 · Λεξικό v1.8 · Μάρτιος 2026 · CC BY 4.0*
-Anagnostakis, I. (2026). ΜΕΘΟΔΟΣ CAPHTOR-MINOAN - ΕΚΔΟΣΗ 8.0. Zenodo. https://doi.org/10.5281/zenodo.18769389
+Anagnostakis, I. (2026). ΜΕΘΟΔΟΣ CAPHTOR-MINOAN - ΕΚΔΟΣΗ 8.7 (8.7). Zenodo. https://doi.org/10.5281/zenodo.19036648
