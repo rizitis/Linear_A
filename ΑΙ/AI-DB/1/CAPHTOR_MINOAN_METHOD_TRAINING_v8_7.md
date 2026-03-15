@@ -670,11 +670,11 @@ Tablet HT86b (Hagia Triada, Scribe 6, LM IB) contains the word **DI-DE** — pro
 4. The existence of 2 proven cases does NOT automatically prove a 3rd
 5. Always check: does the Linear A word also appear with DE? (like DI-DE in HT86b)
 
-**Known candidates (NOT proven — need their own evidence):**
+**Rejected candidates:**
 
-| Candidate | Etymology | Context | k\* | Status |
-|-----------|-----------|---------|-----|--------|
-| DI-KA → δεκάτη (tithe/10% tax) | HT52a: SA-MA·TE·4 + GRA 201 | Grain admin | 0.55 | Needs arithmetic + corpus |
+| Candidate | Proposed etymology | Rejection reason | k\* |
+|-----------|-------------------|-----------------|-----|
+| ~~DI-KA → δεκάτη (tithe/10% tax)~~ | HT52a: SA-MA·TE·4 + GRA 201 | **ZAZb3 (Zakros): DI-DI-KA-SE + DE-KA in the SAME inscription.** The Minoans HAD the syllable DE-KA and used it separately from DI-KA. Therefore DI-KA ≠ δεκάτη. Third confirmation (after HT86b DI-DE) that DI ≠ DE within Linear A. | ❌ 0.00 |
 
 **Parallel vowel adaptations in Linear A → B transitions:**
 - KU-NI-SU ↔ ko-no-so (i→o in N-series — different pattern, also case-by-case)
