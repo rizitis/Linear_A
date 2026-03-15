@@ -1,6 +1,6 @@
 # CAPHTOR-MINOAN METHOD — AI TRAINING PROTOCOL
 ## Complete Operational Manual for Deciphering Linear A and the Phaistos Disc
-### Version 8.4 — March 2026
+### Version 8.6 — March 2026
 
 **Author:** Ioannis Anagnostakis  
 **License:** CC BY 4.0  
@@ -89,9 +89,14 @@ When analyzing a Linear A sequence:
 | Term | R→L? | Meaning | Root | Confidence | Attestations |
 |------|------|---------|------|-----------|-------------|
 | **QA-KI-SE-NU-TI** | No R | "The Enthroned One" | QA- (Semitic relative) + כִּסֵּא (kisse) + -NU-TI (Cypro-Minoan suffix) | 85% | AR Zf 1 |
+| **A-DU** [v8.5] | No R | **Assessment/tax** | Transaction header | 88% | 11+ tablets, 3 sites (HT, KH, TY). Always heading position, before commodity+number |
+| **MA-KA- family** [v8.5] | No R→L (genuine /r/) | **Merchant class** | Semitic M-K-R (Akk. makāru, tamkāru) | 82% | 5 tablets, 3 sites (HT, PK, ZA), 4+ scribes. Kober triplet: -RI-TE (heading), -I-TA (entry), -I-SE (accounting) |
 | **SI-RU-TE → SI-LU-TE** | ✓ | "[The goddess] rules" | שָׁלַט (shalat) | 78% | 30+ libation formula |
+| **KU-PA₃-NU** [v8.5] | No R | **Administrative category/guild** | — | 78% | 6+ tablets, 4 scribes, qty 1-109. Kober triplet: -NU, -NA-TU, -PA₃ |
 | **O-SU-QA-RE → O-SU-QA-LE** | ✓ | "Weighed/in shekels" | שֶׁקֶל (sheqel) | 75% | TL Za 1 |
-| **RE-NA → LE-NA** | ✓ | "Wine-press/vat" | ληνός | 72% | ZA Zb 3 — Note: λήνος (wool/fabric) rejected by K6: ZAZb3 context requires vessel, not textile |
+| **RE-NA → LE-NA** | ✓ | "Wine-press/vat" | ληνός | 72% | ZA Zb 3 |
+| **TE-RI** [v8.5] | No R | **Ritual epilogue/closing** | — | 72% | HT91, ARKH6, KN Zf 13, PK Za 11, PH(?)31b — always ritual/dedicatory context |
+| **DA-I-PI-TA** [v8.5] | No R | **Balance/remainder** | — | 72% | ZA8, ZA10a — final position in accounting |
 | **I-PI-NA-MA** | No R | "Before [the goddess]" | פָּנִים (panim) | 70% | ~20 libation formulae |
 | **A-SE** | No R | "Fire-offering / by fire" | אִשֶּׁה (ishe) | 75% | HT81, ZA Zb 3 |
 
@@ -99,7 +104,7 @@ When analyzing a Linear A sequence:
 
 | Ideogram | Meaning | Confidence | Linear B equivalent | Notes |
 |----------|---------|-----------|-------------------|-------|
-| **CYP** | Cyperus (aromatic plant) | 100% | ku-pa-ro₂ | Common in pharmaceutical tablets |
+| **CYP** | Cyperus (aromatic plant) | 100% | ku-pa-ro₂ | **§7A.5c:** CYP + fraction + no KU-RO = aromatic ingredient (self-documented). Trilateral [v8.6]: Gr.A CYP → Gr.B ku-pa-ro₂ → Gk. κύπειρος (Pre-Greek = Minoan loanword). Semitic K-P-R (Akk. kapāru "to smear", kupru "pitch", Heb. kōper "henna"): semantic convergence but κύπειρος ≠ henna — Wanderwort hypothesis k\*=0.55. Etymology is SUPPLEMENTARY, not foundational. |
 | **OLE** | Olive oil (ideogram — accounting register) | 100% | e-ra-wo | Multiple subtypes: +RI, +TA, +NE, +TU, +DI. Note: OLE ≠ A-SA-MU-NE — same substance, different register: OLE = logogram used in accounting tablets; A-SA-MU-NE = Semitic loanword (שֶׁמֶן) used in ritual/literary contexts. Do not treat as synonyms. |
 | **VIN** | Wine/vinegar | 100% | wo-no | AB 131 sign |
 | **GRA** | Grain (barley) | 100% | *120 | Main staple |
@@ -113,8 +118,8 @@ When analyzing a Linear A sequence:
 
 | Affix | Position | Meaning | Examples | Confidence |
 |-------|----------|---------|----------|-----------|
-| **I-** | Prefix | Dative: "for/to" | I-DA-MA-TE ("for Demeter"), I-KU-TA ("for the KU-TA") | 85% |
-| **-TE** | Suffix | Various grammatical | DA-MA-TE, KI-RO-TE(S) | 70% |
+| **I-** | Prefix | Dative: "for/to" | I-DA-MA-TE ("for Demeter"), I-KU-TA ("for the KU-TA"), I-KA (HT91) | 85% |
+| **-TE / -TA alternation** [v8.5] | Suffix | **Grammatical (case/inflection)** | SU-KI-RI-**TA** (PH) ↔ SU-KI-RI-**TE** (HT) = same toponym. MA-KA-I-**TA** ↔ MA-KA-RI-**TE** | 80% |
 | **-TI** | Suffix | Office/title | QA-KI-SE-NU-TI | 75% |
 | **KA-** | Prefix | Possible article/demonstrative | KA-NA·CYP (HT23a), KA·MI+JA+RU (KH36) | 60% |
 
@@ -125,6 +130,8 @@ When analyzing a Linear A sequence:
 | KU-RO | Total at end of list | Always before final number |
 | KI-RO | Deficit/remainder | Opposite of KU-RO |
 | PO-TO-KU-RO | Grand total | Multiple lists combined |
+| **A-DU** [v8.5] | **Assessment/tax header** | Always first position, before commodity+number. 11+ tablets, 3 sites |
+| **KI-KI-NA** [v8.5] | **Intensified debt (?)** | HT88 — possible reduplicated KI(-RO). k\*=0.55, provisional |
 
 ---
 
@@ -272,19 +279,23 @@ Numbers are the **most reliable** evidence because they work regardless of which
 | Items + numbers, then term + sum | The term = "total" | HT86: items sum to 35, KU-RO 35 |
 | Two columns with same items | Incoming vs outgoing | Debit/credit ledger |
 | Fractions (⅙, ⅓, ½, etc.) | Pharmaceutical dosages OR rations | HT35: ⅓, ¹⁄₁₆ |
+| **Fractions + NO KU-RO** [v8.5] | **Level 1 Recipe / formula (§7A.5b)** | HT91: 7 × ≈⅙, no KU-RO |
 | VIR + number / GRA + number | Workers + ration | Personnel records |
 | Same ratio across tablets | Standardized formula | OLE+RI = MI+JA+RU (always 1:1) |
+| **KI-RO + entries × 1 + KU-RO** [v8.5] | **Deficit list (Level 5)** | HT88, HT117a, HT94b |
 
 ### 3.3 Tablet Categories
 
 | Category | Key Indicators | Examples |
 |----------|---------------|---------|
-| **Accounting** | KU-RO at end, numbers add up, items + quantities | HT31, HT86, HT94 |
+| **Accounting** | KU-RO at end, numbers add up, items + quantities | HT31, HT86, HT94a |
 | **Personnel** | VIR/MUL ideograms, names + numbers, GRA rations | HT62, HT119 |
 | **Agricultural** | GRA, OLE, VIN, FIC + large quantities | HT86, HT100 |
-| **Pharmaceutical** | CYP + \*308 + MI+JA+RU + OLE types + fractional quantities | HT35, HT23a, HT60 |
+| **Pharmaceutical** | CYP + \*308 + MI+JA+RU + OLE types + fractional quantities | HT35, HT23a, HT60, HT91 |
 | **Ritual/Religious** | DA-MA-TE, A-SA-SA-RA-ME, libation formula | IO Za 2, PK Za series |
 | **Trade** | Weight units (mina, double mina), large quantities | HT45b |
+| **Deficit list** [v8.5] | KI-RO header + entries × 1 + KU-RO sum, often vacat separator | HT88, HT117a, HT94b |
+| **Assessment** [v8.5] | A-DU header + commodity + numbers | HT86a, HT95b, TY3a |
 
 ---
 
@@ -549,11 +560,17 @@ The Cypriot chain CANNOT apply. Analysis relies on Semitic/Aegean roots and stru
 | VIR + number / GRA + number (1:1 ratio) | **Personnel rations** | Check for KU-RO at end |
 | KU-RO at end of list + number = sum | **Accounting total** | Verify arithmetic |
 | KI-RO + CYP + number | **Inventory deficit** | Remaining stock after consumption |
+| **KI-RO + entries × 1 + KU-RO** [v8.5] | **Deficit list (Level 5)** | Verify K5: sum entries = KU-RO. Check for vacat/ruling separator |
+| **A-DU + commodity + numbers** [v8.5] | **Assessment/tax record** | A-DU always first position |
+| **MA-KA-RI-TE + list of names** [v8.5] | **Merchant class personnel** | May pair with KI-RO (deficit) or \*21F-TU-NE (women) |
+| **Fractions + NO KU-RO** [v8.5] | **Level 1 Recipe (§7A.5b)** | Even within sub-sections of larger tablets |
 | DA-MA-TE + offerings | **Religious dedication** | Layer 1 — do NOT apply Semitic analysis |
 | A-SA-SA-RA-ME at end | **Ritual closing** | Libation formula |
+| **TE-RI + OLE compound** [v8.5] | **Ritual epilogue** | Consecration layer — always end of recipe |
 | I- prefix + term | **Dative: "for..."** | Can be religious OR practical |
 | OLE+RI = MI+JA+RU (same quantity) | **Carrier oil + aromatic** | 1:1 infusion ratio |
 | QA₂+RE+PU in weight units | **Trade commodity** | Resin exported by weight |
+| **KA-PA at heading + SA-RA₂ below** [v8.5] | **Institutional hierarchy** | KA-PA = supreme heading, SA-RA₂ = institutional entity |
 
 ### 7.2 The Pharmaceutical Triad
 
@@ -562,24 +579,68 @@ When you see CYP + \*308 + MI+JA+RU together on a tablet, you are looking at a *
 - HT35 (Hagia Triada) — single recipe
 - KH12 (Khania) — same triad in different city
 
-### 7.3 Oil Types and Their Functions
+### 7.3 Oil Types and Their Functions [UPDATED v8.5]
 
-| Oil Type | Function in Recipe | Evidence |
-|----------|-------------------|---------|
-| **OLE+RI** | Carrier oil (infusion) | Always 1:1 with MI+JA+RU |
-| **OLE+TA** | Base oil (thick, for ointment) | Paired with CYP |
-| **OLE+NE** | Type C (unknown function) | Only in inventory tablets |
-| **OLE+TU** | Type D (unknown function) | Only in HT23a master list |
-| **OLE+DI** | Sacred oil? | Only in HT12 with DA-TE |
+| Oil Type | Function in Recipe | k\* | Evidence |
+|----------|-------------------|-----|---------|
+| **OLE+RI** | Carrier oil (infusion) | 0.85 | Always 1:1 with MI+JA+RU |
+| **OLE+TA** | Base oil (thick, for ointment) | 0.78 | Paired with CYP |
+| **OLE+MI** | **Honey-oil (μέλι+ἔλαιον)** [v8.5] | **0.90** ★ | PIE \*melit-: Cypr. me-li → Lin.B me-ri → μέλι. Appears twice in HT91 (formula + epilogue consecration layer) |
+| **OLE+U** | **Liquid/fluid oil** [v8.5 CORRECTION] | **0.85** | U = determinative of physical state (liquid), NOT 'water'. Corpus: quantities ⅙–54 in standard liquid measures, NOT weight units. Previous 'hydrelaion' interpretation (k\*=0.60) = overclaim |
+| **OLE+KI** | Thyme/citrus oil (?) | 0.78 corpus / **0.35 linguistic** [v8.5] | Corpus position safe. Linguistic chain (ki-ta-no) broken — Cypriot INDIRECT |
+| **OLE+NE** | Type E (unknown function) | — | Only in inventory tablets |
+| **OLE+TU** | Type F (unknown function) | — | Only in HT23a master list |
+| **OLE+DI** | Sacred oil? | — | Only in HT12 with DA-TE |
 
-### 7.4 Four-Tier Tablet Hierarchy
+**Oil Triad (HT91, HT28a, HT101, HT125a, TY3a):** OLE+KI + OLE+U + OLE+MI = standardized oil base for Minoan ointments — 6+ tablets.
+
+### 7.4 Five-Tier Tablet Hierarchy [UPDATED v8.5]
 
 | Level | Function | Characteristics | Examples |
 |-------|----------|----------------|---------|
-| **Level 1** | Recipe card (single dose) | Small fractional quantities | HT35, HT60 |
+| **Level 1** | Recipe card (single dose) | Fractional quantities, **no KU-RO** (§7A.5b) | HT35, HT60, **HT91** |
 | **Level 2** | Batch production record | Medium quantities + KI-RO (consumption) | HT30, HT32 |
 | **Level 3** | Warehouse inventory | Large quantities, multiple categories | HT23a, HT34 |
 | **Level 4** | Trade invoice | Weight units (mina), very large numbers | HT45b, HT33 |
+| **Level 5** [v8.5] | **Deficit list** | KI-RO header + entries × 1 + KU-RO | **HT88, HT117a, HT94b** |
+
+> **§7A.5b Rule [NEW v8.5]:** Fractions + NO KU-RO = Level 1 Recipe. Fractions + KU-RO = Levels 2-4. This also applies to **sub-sections** within tablets: e.g. HT94a SA-RA₂ post-total section (CYP ⅕, NI ⅕, no own KU-RO) = embedded Level 1 formula. k\*=0.88 (5 attestations, 0 counterexamples).
+
+> **§7A.5c Principle of Functional Self-Documentation [NEW v8.6]:** When an ideogram appears **with a fraction** in a tablet **without KU-RO** (= Level 1 Recipe per §7A.5b), its botanical/commodity identification **is documented by its function in the tablet**. No etymological proof is required.
+>
+> **Rationale:** An ideogram in a pharmaceutical formula with dosage (fraction) IS by necessity an ingredient. The identification as a natural product (plant, resin, oil) follows automatically from position, quantity, and neighboring ingredients. Etymology (§16 TRAP) is SUPPLEMENTARY — it tells us WHAT NAME it had, not WHAT IT IS.
+>
+> **Applies to:** CYP (cyperus), \*308 (coriander), MI+JA+RU (myrrh), QA₂+[?]+PU (ladanum), OLE+types, VIN, GRA, E/FIC — ALL functionally self-documented.
+>
+> **k\*=0.92** (6 attestations: HT35, HT91, HT60, HT23a, KH12, KH85 | 0 counterexamples)
+
+### 7.5 Deficit List Protocol [NEW v8.5]
+
+When you see this structure, you are looking at a **deficit list**:
+
+```
+[HEADING] • [KI-RO] •
+  [Name/Category 1]  1
+  [Name/Category 2]  1
+  ...
+  [KU-RO]  [total]
+```
+
+**How to verify:** Sum all entries. If sum = KU-RO number → K5 satisfied → confirmed deficit list.
+
+**Three confirmed examples:** HT88 (6=6), HT117a (10=10), HT94b (5=5). All have perfect K5.
+
+**Key entries found in deficit lists:** KU-PA₃-NU (administrative category), SA-RU (toponym), PA-TA-NE, DA-TA-RE/NA-DA-RE (morphological variants). Note: the same entities appear at quantities 1 in deficit lists but 7-109 in personnel lists — the unit '1' in deficits measures **obligations per institution**, NOT persons.
+
+### 7.6 Kober Triplets [NEW v8.5]
+
+Roots appearing in **3+ morphological variants** = evidence for **case system with at least 3 forms**:
+
+| Root | Form 1 | Form 2 | Form 3 | Sites |
+|------|--------|--------|--------|-------|
+| MA-KA- | -RI-TE (heading) | -I-TA (entry) | -I-SE (accounting) | 3 |
+| KU-PA₃- | -NU | -NA-TU | -PA₃ | 3+ |
+| DA-...-RE | DA-TA-RE | NA-DA-RE | DA-RI-DA | 1 |
 
 ---
 
@@ -1582,3 +1643,52 @@ FORBIDDEN: stating «k\*=0.80» for something that passes only one K-criterion.
 
 ---
 
+
+## SUPPLEMENTARY DOCUMENTS [v8.5]
+
+The following documents were produced alongside the v8.5 update and should be consulted for detailed analyses:
+
+| Document | Content | Date |
+|----------|---------|------|
+| **Linear_A_Lexicon_v1_3.md** | Complete lexicon of ~45 verified terms (k*≥0.70) | March 2026 |
+| **REVISIONS_MARCH_2026_v1.md** | Full reasoning for every v8.5 change | March 2026 |
+| **HT88_analysis_v1.md** | Deficit list analysis — A-DU assessment, KI-RO deficits | March 2026 |
+| **HT117a_analysis_v1.md** | Deficit list cross-validation — MA-KA-RI-TE heading | March 2026 |
+| **HT94ab_analysis_v1.md** | Capstone: KA-PA hierarchy + SA-RA₂ + deficit + pharma | March 2026 |
+| **MAKARITE_deficit_network_consolidation_v1.md** | Consolidated network of 6+ tablets | March 2026 |
+| **HT91_v2_Τριστρωματικη_Αναλυση.md** | Tri-layered analysis of 7 oil compounds | March 2026 |
+
+### Key Findings Summary (v8.5)
+
+**New verified terms (k*≥0.70):** A-DU (0.88), MA-KA- family (0.82), KU-PA₃-NU (0.78), TE-RI (0.72), DA-I-PI-TA (0.72)
+
+**New rules:** §7A.5b (Fractions + no KU-RO = Recipe), Deficit List Protocol (k*=0.88), -TA/-TE alternation (k*=0.80)
+
+**Corrections:** OLE+U = liquid oil (NOT hydrelaion), OLE+KI dual k* (0.78/0.35), SI Asphodelus botanical downgrade (k*≈0.55)
+
+**New structural findings:** Deficit list triple cross-validation (3/3 K5 perfect), KA-PA→SA-RA₂ hierarchy in single tablet (HT94), SA-RA₂ pharmaceutical connection, Kober Triplets (3 documented), Scribe 9 as 'accountant' of merchant class
+
+### Key Findings Summary (v8.6) [NEW]
+
+**New rule:** §7A.5c — Principle of Functional Self-Documentation (k*=0.92). Ideogram + fraction + no KU-RO = ingredient identification is self-documented by tablet function. Etymology (§16 TRAP) is SUPPLEMENTARY, not foundational. Applies to: CYP, *308, MI+JA+RU, QA₂+PU, OLE+types, VIN, GRA, FIC.
+
+**CYP trilateral analysis (§16 TRAP + web search):**
+- Commodity k*=1.00 (self-documented via §7A.5c)
+- Trilateral k*=0.92 (Gold Standard Tier A): Lin.A CYP → Lin.B ku-pa-ro₂ → Gk. κύπειρος
+- Etymology: **Pre-Greek** (= Minoan loanword into Greek). Earliest attested form = Mycenaean ku-pa-ro in Linear B.
+- Semitic K-P-R hypothesis (k*=0.55): Akk. kapāru "to smear" → kupru "pitch", Heb. kōper "henna", Ug. kpr "aroma". Semantic convergence (aromatic ointment) BUT cyperus ≠ henna — two different plants, ancient confusion documented (Herodotus, Pliny). Wanderwort candidate, NOT confirmed.
+- Alternative: Akk. kibirru (rush plant) — phonetically weak.
+
+**Corpus scan (1,719 inscriptions):** 61 known terms identified / 1,212 unique sequences (5% identification rate). 111 [NEW] sequences with 3+ tablets. No [NEW] sequence satisfies K2+K3 for R→L application. KA-PA (8 tablets, VIR 234) = §11 Behavioral candidate. OLE+E (4 tablets) = outside Lexicon.
+
+**Updated companion documents:**
+| Document | Version | Change |
+|----------|---------|--------|
+| Linear_A_Lexicon | v1.5 → **v1.6** | §7A.5c, CYP TRAP, Mycenaean Continuity + etymology column |
+| ΓΡΑΜΜΙΚΗ_Α_ΕΥΡΗΜΑΤΑ_MASTER | v2.0 → **v3.0** | §7A.5c principle, CYP trilateral, K-P-R hypothesis |
+| Linear_A_Corpus_Analysis | **NEW** | 1,719 inscriptions systematic scan |
+
+---
+
+*© 2026 Ιωάννης Αναγνωστάκης — Caphtor-Minoan v8.6 — CC BY 4.0*
+*v8.6 changelog: NEW §7A.5c Principle of Functional Self-Documentation (k*=0.92). CYP full trilateral analysis (TRAP+web): Pre-Greek Minoan loanword, Semitic K-P-R hypothesis (k*=0.55), cyperus≠henna distinction. Corpus scan 1,719 inscriptions. Updated CYP ideogram entry. Compatible: Lexicon v1.6, MASTER v3.0.*
