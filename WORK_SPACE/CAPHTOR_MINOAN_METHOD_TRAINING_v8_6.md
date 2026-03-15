@@ -110,6 +110,7 @@ When analyzing a Linear A sequence:
 | **GRA** | Grain (barley) | 100% | *120 | Main staple |
 | **E / FIC** | Figs | 100% | NI (AB 30) | Also used as syllabogram NI |
 | **VIR** | Person/man | 100% | *100 | Labor unit |
+| **DI-PA** [v1.7] | Cup/vessel (δέπας) | **88%** | **de-pa** | **Gold Standard Tier A.** Trilateral: Gr.A DI-PA (~1800 BC, PH7a Phaistos) → Gr.B de-pa (PY Ta series) → Gk. δέπας (Pre-Greek, Beekes = Minoan loanword). Kober pair: DI-PA-**JA** (PH7a heading) / **PO**-DI-PA**₃** (KN22b, qty=110). Vowel shift i→e. PO- = "grand total" (← PO-TO-KU-RO). Oldest attestation of word δέπας in the world (~1800 BC, 600 years before Homer). |
 | **\*308** | Coriander | 80% | ko-ri-ja-do-no | Schoep 2002: "agricultural commodity [...] in proportion to OLIV, always in fractional quantities" |
 | **MI+JA+RU** | Myrrh/perfume (processed) | 75% | — (replaced by Greek) | Semitic m-r root; three forms: +RU (processed), +I (raw), +KA (category) |
 | **QA₂+[?]+PU** | Ladanum resin (Cistus) | 70% | — | Three forms: +PU (heated), +RE (liquid), +RE+PU (composite). Traded by weight (HT45b: double mina) |
@@ -1650,7 +1651,7 @@ The following documents were produced alongside the v8.5 update and should be co
 
 | Document | Content | Date |
 |----------|---------|------|
-| **Linear_A_Lexicon_v1_3.md** | Complete lexicon of ~45 verified terms (k*≥0.70) | March 2026 |
+| **Linear_A_Lexicon_v1_7.md** [v8.6] | Complete lexicon of ~51 verified terms (k*≥0.70). §7A.5c, CYP TRAP, DI-PA Gold Standard | March 2026 |
 | **REVISIONS_MARCH_2026_v1.md** | Full reasoning for every v8.5 change | March 2026 |
 | **HT88_analysis_v1.md** | Deficit list analysis — A-DU assessment, KI-RO deficits | March 2026 |
 | **HT117a_analysis_v1.md** | Deficit list cross-validation — MA-KA-RI-TE heading | March 2026 |
@@ -1684,11 +1685,11 @@ The following documents were produced alongside the v8.5 update and should be co
 **Updated companion documents:**
 | Document | Version | Change |
 |----------|---------|--------|
-| Linear_A_Lexicon | v1.5 → **v1.6** | §7A.5c, CYP TRAP, Mycenaean Continuity + etymology column |
+| Linear_A_Lexicon | v1.5 → **v1.7** | §7A.5c, CYP TRAP, Mycenaean Continuity + etymology column, **DI-PA Gold Standard** |
 | ΓΡΑΜΜΙΚΗ_Α_ΕΥΡΗΜΑΤΑ_MASTER | v2.0 → **v3.0** | §7A.5c principle, CYP trilateral, K-P-R hypothesis |
 | Linear_A_Corpus_Analysis | **NEW** | 1,719 inscriptions systematic scan |
 
 ---
 
 *© 2026 Ιωάννης Αναγνωστάκης — Caphtor-Minoan v8.6 — CC BY 4.0*
-*v8.6 changelog: NEW §7A.5c Principle of Functional Self-Documentation (k*=0.92). CYP full trilateral analysis (TRAP+web): Pre-Greek Minoan loanword, Semitic K-P-R hypothesis (k*=0.55), cyperus≠henna distinction. Corpus scan 1,719 inscriptions. Updated CYP ideogram entry. Compatible: Lexicon v1.6, MASTER v3.0.*
+*v8.6 changelog: NEW §7A.5c Principle of Functional Self-Documentation (k*=0.92). CYP full trilateral analysis (TRAP+web): Pre-Greek Minoan loanword, Semitic K-P-R hypothesis (k*=0.55), cyperus≠henna distinction. Corpus scan 1,719 inscriptions. Updated CYP ideogram entry. DI-PA = depas (cup) Gold Standard Tier A (k*=0.88): Lin.A DI-PA → Lin.B de-pa → Gk. δέπας (Pre-Greek, Beekes). Kober pair DI-PA-JA/PO-DI-PA₃. Compatible: Lexicon v1.7, MASTER v3.0.*

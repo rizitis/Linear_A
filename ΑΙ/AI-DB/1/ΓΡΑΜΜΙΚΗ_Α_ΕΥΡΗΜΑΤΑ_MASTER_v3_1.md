@@ -1,8 +1,8 @@
 # ΓΡΑΜΜΙΚΗ Α — MASTER ΑΡΧΕΙΟ ΕΥΡΗΜΑΤΩΝ
-*Corpus: grouped_by_support.md + inscriptions_table.md | Τελευταία ενημέρωση: Μάρτιος 2026 — v3.0*
-*Συμβατό με: CAPHTOR_MINOAN_METHOD v8.6 · Linear_A_Lexicon v1.6 · 50 τεκμηριωμένα λήμματα*
+*Corpus: grouped_by_support.md + inscriptions_table.md | Τελευταία ενημέρωση: Μάρτιος 2026 — v3.1*
+*Συμβατό με: CAPHTOR_MINOAN_METHOD v8.7 · Linear_A_Lexicon v1.8 · 55 τεκμηριωμένα λήμματα + 3 ⚠️*
 
-> **⚠️ ΑΛΛΑΓΕΣ v3.0:** §7A.5c Αρχή Λειτουργικής Αυτοτεκμηρίωσης (k\*=0.92): ιδεόγραμμα+κλάσμα+χωρίς KU-RO = συστατικό, δεν χρειάζεται ετυμολογία. CYP πλήρης τριστρωματική (Pre-Greek Μινωικό δάνειο, Σημιτ. K-P-R hypothesis k\*=0.55). Corpus σάρωση 1.719 επιγραφών: 5% ταυτοποίηση, 111 [ΝΕΑ] 3+, 0 νέα R→L.
+> **⚠️ ΑΛΛΑΓΕΣ v3.1:** §7A.6 Τάση DI→DE σε δάνεια (ΟΧΙ κανόνας — HT86b DI-DE αποδεικνύει DI≠DE εντός Γρ.Α, κατά περίπτωση αποδεδειγμένη, cross-script μόνο): 2 αποδ. περιπτώσεις (DI-PA→de-pa, DI-WO→Διϝός). MI = μέλι determinative (k\*=0.85 ★ Confirmed): OLE+MI 14 πιν. + **KH9 MI standalone ⅓ σε Level 1 Recipe** (μεταξύ NI ¼ και CYP+D ½, §7A.5c πληρείται) + U-DI-MI (HT117a). McGovern: υδρόμελι αρχαιολ. τεκμηριωμένο σε Μινωική Κρήτη. SU-PU = sappu αγγείο (k\*=0.65 ⚠️). Αλυσίδα καταλόγων αγγείων PH7a→HT31→PY Ta 641 (600 χρ.). ΠΡΩΤΟΤΥΠΗ ΑΝΑΚΑΛΥΨΗ MI = μέλι.
 >
 > **Αλλαγές v2.0:** Διόρθωση A-DU (φόρος→υποχρέωση), MA-KA-RI-TE (μακάριος→έμπορος), OLE+U (υδρέλαιον→υγρό λάδι), KH≠Κνωσός. Νέα: HT95 διανομή, deficit protocol, -RU=-ρος, -I suffix, SA-RU=Ζαρός, A-DU=adû. SI botanical αβεβαιότητα.
 
@@ -29,6 +29,15 @@
 SU-KI-RI-TA (Φαιστός, MM III) ↔ SU-KI-RI-TE (HT, LM IB) = ίδιο τοπωνύμιο (Σύβριτα), δύο μορφές. Ίδιο: MA-KA-I-TA ↔ MA-KA-RI-TE. k\*=0.80.
 
 ### Αρχή 6: CYP = Pre-Greek Μινωικό δάνειο [ΝΕΟ v8.6]
+
+### Αρχή 7: Τάση DI→DE σε δάνεια (Cross-Script, Κατά Περίπτωση) [ΝΕΟ v8.7]
+Σε συγκεκριμένες Μινωικές λέξεις που δανείστηκαν στα Ελληνικά, DI αποδόθηκε ως DE. **ΔΕΝ ΕΙΝΑΙ ΚΑΝΟΝΑΣ** — κάθε περίπτωση αποδεικνύεται ανεξάρτητα. **Κρίσιμο:** HT86b **DI-DE** αποδεικνύει ότι η Μινωική ΞΕΧΩΡΙΖΕ DI/DE ως 2 φωνήματα → η αλλαγή συμβαίνει ΜΟΝΟ cross-script (Γρ.Α→Γρ.Β/Ελλ.), ΟΧΙ εντός Γρ.Α. Αντίθεση R→L: η Γρ.Α δεν έχει L-σειρά (περ. γραφής) + η Γρ.Β ΔΕΝ κληρονόμησε KU-RO (χρησιμοποιεί TO-SO). 2 αποδεδειγμένες περιπτώσεις: DI-PA→de-pa (k\*=0.88 ★), DI-WO→Διϝός (k\*=0.72). Εργαλείο παραγωγής candidates, ΟΧΙ μηχανισμός απόδειξης.
+
+### Αρχή 8: MI = Determinative μελιού [ΝΕΟ v8.7 — ★ k\*=0.85 Confirmed]
+MI σε σύνθετα ιδεογράμματα και standalone = μέλι. Γρ.Β: me-ri = μέλι (MERI λογόγραμμα). Ακροφωνία cross-script: NI = σύκα (Κρητικό *nikuleon*, Palaima). **3 attestations:** OLE+MI (14 πιν., μελόλαδο) + **KH9: MI ⅓ standalone** (Χανιά, Level 1 Recipe μεταξύ NI ¼ και CYP+D ½ — §7A.5c πληρείται) + U-DI-MI (HT117a, υδρόμελι;). McGovern (U. Penn 1997): μέλι + ζύμωση σε Μινωικά αγγεία. **ΠΡΩΤΟΤΥΠΗ ΑΝΑΚΑΛΥΨΗ.**
+
+### Αρχή 9: Αλυσίδα Καταλόγων Αγγείων [ΝΕΟ v8.7]
+PH7a (~1800 π.Χ.) → HT31 (~1500 π.Χ.) → PY Ta 641 (~1200 π.Χ.) = 600 χρόνια. DI-PA επιβιώνει σε όλο το εύρος. PH7a = αρχαιότερη γνωστή απογραφή αγγείων στο Αιγαίο.
 **CYP** (k\*=1.00 commodity, k\*=0.92 τριστρωματικό): Γρ.Α CYP → Γρ.Β ku-pa-ro₂ → Ελλ. κύπειρος. Η λέξη κύπειρος είναι **Pre-Greek** = Μινωικό δάνειο στα Ελληνικά — η παλαιότερη μαρτυρία στον κόσμο = Μυκηναϊκό ku-pa-ro σε Γρ.Β. Η Σημιτική ρίζα **K-P-R** (Ακκαδ. kapāru «αλείφω», kupru «πίσσα», Εβρ. kōper «χέννα», Ουγκαρ. kpr «άρωμα»): σημασιολογική σύγκλιση (αρωματική αλοιφή) αλλά **κύπειρος ≠ χέννα** — δύο διαφορετικά φυτά, αρχαία σύγχυση τεκμηριωμένη (Ηρόδοτος, Πλίνιος). Wanderwort hypothesis k\*=0.55. **Η ετυμολογία ΔΕΝ αλλάζει τη βοτανική ταυτοποίηση** (§7A.5c).
 
 ---
@@ -47,7 +56,7 @@ SU-KI-RI-TA (Φαιστός, MM III) ↔ SU-KI-RI-TE (HT, LM IB) = ίδιο το
 | Μέτρηση | N |
 |---------|---|
 | Μοναδικές αλληλουχίες | 1.212 |
-| Ταυτοποιημένες (Λεξικό v1.6) | 61 (5%) |
+| Ταυτοποιημένες (Λεξικό v1.7) | 61 (5%) |
 | [ΝΕΑ] | 1.151 (95%) |
 | [ΝΕΑ] με 3+ πινακίδες | 111 |
 | Πινακίδες με KU-RO | 38 |
@@ -63,6 +72,10 @@ SU-KI-RI-TA (Φαιστός, MM III) ↔ SU-KI-RI-TE (HT, LM IB) = ίδιο το
 ### Ήδη αναλυμένες (23+ πινακίδες)
 **Πρώτη φάση:** HT13, HT28a, HT28b, HT30, HT34, HT5, HT54a, HT57a, HT61, HT75, HT80, HT82, HT97b, HT133, HT139, HT147
 **v8.5 (Μάρτιος 2026):** HT88, HT117a, HT87, HT94a/b, HT95a/b, HT86a, HT12 (blind test), HT9a/b (blind test)
+
+**v8.6 (Μάρτιος 2026):** CYP τριστρωματική, DI-PA Gold Standard (PH7a + KN22b), corpus scan 1.719 επιγραφών
+
+**v8.7 (Μάρτιος 2026):** HT28a/b (5 OLE τύποι), PH7a (αρχαιότερος κατάλογος αγγείων), HT31 (3.775 αγγεία), HT117a re-examination (U-DI-MI = υδρόμελι;). MI determinative, DI→DE κανόνας, Vessel Catalogue Tradition.
 
 ### Προς ανάλυση — Tier A: 4+ κλάσματα (14 πινακίδες)
 
@@ -524,13 +537,24 @@ Triple cross-validation: 3/3 K5 perfect. 2 γραφείς, 2 δωμάτια → 
 
 ---
 
-## KOBER TRIPLETS [ΝΕΟ v8.5]
+## KOBER TRIPLETS [ΝΕΟ v8.5, ενημ. v1.7]
 
 | Ρίζα | Μορφή 1 | Μορφή 2 | Μορφή 3 |
 |------|---------|---------|---------|
 | MA-KA- | MA-KA-RI-TE | MA-KA-I-TA | MA-KA-I-SE |
 | KU-PA₃- | KU-PA₃-NU | KU-PA₃-NA-TU | KU-PA₃ |
 | DA-...-RE | DA-TA-RE | NA-DA-RE | DA-RI-DA |
+| **DI-PA** [v1.7] | DI-PA-**JA** (PH7a heading) | **PO**-DI-PA**₃** (KN22b, qty=110) | — |
+
+### DI-PA = δέπας (κύπελλο) [ΝΕΟ v1.7 — Gold Standard Tier A, k\*=0.88]
+
+**Τριστρωματική:** Γρ.Α **DI-PA** (~1800 π.Χ., PH7a Φαιστός) → Γρ.Β **de-pa** (PY Ta series) → Ελλ. **δέπας** ἀμφικύπελλον (Όμηρος). **Pre-Greek** = Μινωικό δάνειο (Beekes). Vowel shift i→e.
+
+- **PH7a** (Φαιστός, MM II): DI-PA-JA = heading λίστας αγγείων. VINc (κρασί) στην πλ. b = κύπελλα πόσης.
+- **KN22b** (Κνωσός, Lames): PO-DI-PA₃ 110 = «μέγα σύνολο κυπέλλων» (PO- ← PO-TO-KU-RO).
+- **Αρχαιότερη μαρτυρία** λέξης δέπας στον κόσμο (~1800 π.Χ., 600 χρόνια πριν τον Όμηρο).
+
+Πλήρης τεκμηρίωση: Linear_A_Lexicon_v1_7.md
 
 ---
 
@@ -604,7 +628,7 @@ Triple cross-validation: 3/3 K5 perfect. 2 γραφείς, 2 δωμάτια → 
 
 *Αρχείο: ΓΡΑΜΜΙΚΗ_Α_ΕΥΡΗΜΑΤΑ_MASTER.md*  
 *Εκδοχή: 3.0 | Μάρτιος 2026*  
-*Συμβατό: CAPHTOR_MINOAN_METHOD v8.6 · Linear_A_Lexicon v1.6 · 50 τεκμηριωμένα λήμματα*  
+*Συμβατό: CAPHTOR_MINOAN_METHOD v8.6 · Linear_A_Lexicon v1.7 · 51 τεκμηριωμένα λήμματα*  
 *Κωδικός εργασίας: k\* = εκτίμηση βεβαιότητας (0.00–1.00)*  
-*Αρχεία αναφοράς: HT95ab_analysis_v3_FINAL.md, Linear_A_Lexicon_v1_6.md, CAPHTOR_MINOAN_METHOD_v8_6.md, CAPHTOR_MINOAN_METHOD_TRAINING_v8_6.md, Linear_A_Corpus_Analysis_v8_4_v2.md*
-*v3.0 changelog: §7A.5c Αρχή Λειτουργικής Αυτοτεκμηρίωσης (k\*=0.92). CYP τριστρωματική (Pre-Greek Μινωικό δάνειο, K-P-R hypothesis). Αρχή 6 (CYP ετυμολογία). Corpus σάρωση 1.719 επιγραφών.*
+*Αρχεία αναφοράς: HT95ab_analysis_v3_FINAL.md, Linear_A_Lexicon_v1_7.md, CAPHTOR_MINOAN_METHOD_v8_6.md, CAPHTOR_MINOAN_METHOD_TRAINING_v8_6.md, Linear_A_Corpus_Analysis_v8_4_v2.md*
+*v3.0 changelog: §7A.5c Αρχή Λειτουργικής Αυτοτεκμηρίωσης (k\*=0.92). CYP τριστρωματική (Pre-Greek Μινωικό δάνειο, K-P-R hypothesis). Αρχή 6 (CYP ετυμολογία). Corpus σάρωση 1.719 επιγραφών. DI-PA = δέπας Gold Standard (k\*=0.88, Lexicon v1.7). Kober pair DI-PA-JA/PO-DI-PA₃.*

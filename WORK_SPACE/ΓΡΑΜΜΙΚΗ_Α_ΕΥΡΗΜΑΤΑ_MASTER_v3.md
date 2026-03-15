@@ -1,6 +1,6 @@
 # ΓΡΑΜΜΙΚΗ Α — MASTER ΑΡΧΕΙΟ ΕΥΡΗΜΑΤΩΝ
 *Corpus: grouped_by_support.md + inscriptions_table.md | Τελευταία ενημέρωση: Μάρτιος 2026 — v3.0*
-*Συμβατό με: CAPHTOR_MINOAN_METHOD v8.6 · Linear_A_Lexicon v1.6 · 50 τεκμηριωμένα λήμματα*
+*Συμβατό με: CAPHTOR_MINOAN_METHOD v8.6 · Linear_A_Lexicon v1.7 · 51 τεκμηριωμένα λήμματα*
 
 > **⚠️ ΑΛΛΑΓΕΣ v3.0:** §7A.5c Αρχή Λειτουργικής Αυτοτεκμηρίωσης (k\*=0.92): ιδεόγραμμα+κλάσμα+χωρίς KU-RO = συστατικό, δεν χρειάζεται ετυμολογία. CYP πλήρης τριστρωματική (Pre-Greek Μινωικό δάνειο, Σημιτ. K-P-R hypothesis k\*=0.55). Corpus σάρωση 1.719 επιγραφών: 5% ταυτοποίηση, 111 [ΝΕΑ] 3+, 0 νέα R→L.
 >
@@ -47,7 +47,7 @@ SU-KI-RI-TA (Φαιστός, MM III) ↔ SU-KI-RI-TE (HT, LM IB) = ίδιο το
 | Μέτρηση | N |
 |---------|---|
 | Μοναδικές αλληλουχίες | 1.212 |
-| Ταυτοποιημένες (Λεξικό v1.6) | 61 (5%) |
+| Ταυτοποιημένες (Λεξικό v1.7) | 61 (5%) |
 | [ΝΕΑ] | 1.151 (95%) |
 | [ΝΕΑ] με 3+ πινακίδες | 111 |
 | Πινακίδες με KU-RO | 38 |
@@ -524,13 +524,24 @@ Triple cross-validation: 3/3 K5 perfect. 2 γραφείς, 2 δωμάτια → 
 
 ---
 
-## KOBER TRIPLETS [ΝΕΟ v8.5]
+## KOBER TRIPLETS [ΝΕΟ v8.5, ενημ. v1.7]
 
 | Ρίζα | Μορφή 1 | Μορφή 2 | Μορφή 3 |
 |------|---------|---------|---------|
 | MA-KA- | MA-KA-RI-TE | MA-KA-I-TA | MA-KA-I-SE |
 | KU-PA₃- | KU-PA₃-NU | KU-PA₃-NA-TU | KU-PA₃ |
 | DA-...-RE | DA-TA-RE | NA-DA-RE | DA-RI-DA |
+| **DI-PA** [v1.7] | DI-PA-**JA** (PH7a heading) | **PO**-DI-PA**₃** (KN22b, qty=110) | — |
+
+### DI-PA = δέπας (κύπελλο) [ΝΕΟ v1.7 — Gold Standard Tier A, k\*=0.88]
+
+**Τριστρωματική:** Γρ.Α **DI-PA** (~1800 π.Χ., PH7a Φαιστός) → Γρ.Β **de-pa** (PY Ta series) → Ελλ. **δέπας** ἀμφικύπελλον (Όμηρος). **Pre-Greek** = Μινωικό δάνειο (Beekes). Vowel shift i→e.
+
+- **PH7a** (Φαιστός, MM II): DI-PA-JA = heading λίστας αγγείων. VINc (κρασί) στην πλ. b = κύπελλα πόσης.
+- **KN22b** (Κνωσός, Lames): PO-DI-PA₃ 110 = «μέγα σύνολο κυπέλλων» (PO- ← PO-TO-KU-RO).
+- **Αρχαιότερη μαρτυρία** λέξης δέπας στον κόσμο (~1800 π.Χ., 600 χρόνια πριν τον Όμηρο).
+
+Πλήρης τεκμηρίωση: Linear_A_Lexicon_v1_7.md
 
 ---
 
@@ -604,7 +615,7 @@ Triple cross-validation: 3/3 K5 perfect. 2 γραφείς, 2 δωμάτια → 
 
 *Αρχείο: ΓΡΑΜΜΙΚΗ_Α_ΕΥΡΗΜΑΤΑ_MASTER.md*  
 *Εκδοχή: 3.0 | Μάρτιος 2026*  
-*Συμβατό: CAPHTOR_MINOAN_METHOD v8.6 · Linear_A_Lexicon v1.6 · 50 τεκμηριωμένα λήμματα*  
+*Συμβατό: CAPHTOR_MINOAN_METHOD v8.6 · Linear_A_Lexicon v1.7 · 51 τεκμηριωμένα λήμματα*  
 *Κωδικός εργασίας: k\* = εκτίμηση βεβαιότητας (0.00–1.00)*  
-*Αρχεία αναφοράς: HT95ab_analysis_v3_FINAL.md, Linear_A_Lexicon_v1_6.md, CAPHTOR_MINOAN_METHOD_v8_6.md, CAPHTOR_MINOAN_METHOD_TRAINING_v8_6.md, Linear_A_Corpus_Analysis_v8_4_v2.md*
-*v3.0 changelog: §7A.5c Αρχή Λειτουργικής Αυτοτεκμηρίωσης (k\*=0.92). CYP τριστρωματική (Pre-Greek Μινωικό δάνειο, K-P-R hypothesis). Αρχή 6 (CYP ετυμολογία). Corpus σάρωση 1.719 επιγραφών.*
+*Αρχεία αναφοράς: HT95ab_analysis_v3_FINAL.md, Linear_A_Lexicon_v1_7.md, CAPHTOR_MINOAN_METHOD_v8_6.md, CAPHTOR_MINOAN_METHOD_TRAINING_v8_6.md, Linear_A_Corpus_Analysis_v8_4_v2.md*
+*v3.0 changelog: §7A.5c Αρχή Λειτουργικής Αυτοτεκμηρίωσης (k\*=0.92). CYP τριστρωματική (Pre-Greek Μινωικό δάνειο, K-P-R hypothesis). Αρχή 6 (CYP ετυμολογία). Corpus σάρωση 1.719 επιγραφών. DI-PA = δέπας Gold Standard (k\*=0.88, Lexicon v1.7). Kober pair DI-PA-JA/PO-DI-PA₃.*
