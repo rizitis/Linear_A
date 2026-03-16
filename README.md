@@ -205,3 +205,205 @@
 
 *Caphtor-Minoan Method v8.7 · Λεξικό v1.8 · Μάρτιος 2026 · CC BY 4.0*
 Anagnostakis, I. (2026). ΜΕΘΟΔΟΣ CAPHTOR-MINOAN - ΕΚΔΟΣΗ 8.7 (8.7). Zenodo. https://doi.org/10.5281/zenodo.19036648
+
+---
+---
+
+# CAPHTOR-MINOAN METHOD
+## A Systematic Approach to Linear A
+**Ioannis Anagnostakis · Crete, Greece · 2026**
+
+---
+
+## What Linear A Is
+
+Linear A is the script of the Minoans — the civilization that developed on Crete between 2000 and 1450 BCE. It has been **undeciphered for 120 years**. No one knows what language the Minoans spoke. Every attempt at decipherment has failed because there is no bilingual inscription — no Rosetta Stone.
+
+Linear B — the script of the Mycenaeans — was deciphered in 1952 by Michael Ventris and was shown to write archaic Greek. Linear A looks visually similar, but the language behind it remains unknown.
+
+About ~1,400 Linear A inscriptions survive — tablets, seals, vessels — mainly from Hagia Triada, Phaistos, Chania, and Zakros.
+
+---
+
+## What We Did
+
+We did not decipher the language. We do not know the grammar, we do not know the syntax, and we cannot read a sentence. This must be clear.
+
+What we did is something different — and perhaps more important as a first step:
+
+**We understood what the tablets DO.** 55+ entries whose meaning we know — ideograms, administrative terms, toponyms, aromatics, vessels. We know that HT91 is a perfume recipe. We know that HT95 is a distribution of grain to 6 cities. We know that HT117a is a list of deficits. We know that PH7a is the earliest vessel inventory in the Aegean.
+
+We built a method that **does not guess**. Every finding has a reliability score (k*), every step has criteria, and every hypothesis can be rejected — and many were rejected. The method self-corrects. This is rare in the field of Linear A, where most publish interpretations without a rejection mechanism.
+
+In short: **we do not read Minoan — but we are beginning to hear what the tablets say.** And what they say is consistent, internally coherent, and archaeologically confirmed.
+
+---
+
+## The Method
+
+### Cypriot Rosetta
+
+There is no Rosetta Stone for Linear A. But there is something subtler: the **Cypriot Syllabary**, which descends from Linear A through Cypro-Minoan. This creates a chain: 
+Some signs retain their phonetic value along this chain. This gives us a starting point — limited, but reliable.
+
+### Verification Criteria (K1–K7)
+
+Each identification is tested through 7 independent criteria:
+
+| Criterion | What it checks |
+|----------|-----------|
+| K1 | Does it appear in multiple locations? |
+| K2 | Does it have a stable structural position on tablets? |
+| K3 | Is there a parallel in Linear B? |
+| K4 | Is there a Cypriot parallel? |
+| K5 | Do the totals work numerically? |
+| K6 | Is there etymological support (Pre-Greek / Semitic)? |
+| K7 | Does paleography confirm it? |
+
+No finding is accepted without multiple K. The k* scale (0.00–1.00) measures how certain we are.
+
+### Layered Analysis (TRAP)
+
+For commodity words we apply a 5-layer chain: 
+Each connection decreases or increases the certainty. Etymology is **supplementary** — the function on the tablet IS the primary evidence (§7A.5c).
+
+---
+
+## Major Discoveries
+
+### The Minoan language did not disappear
+
+Words such as DI-PA (depas), CYP (kyperos), NI (figs), VIN (wine) passed into Greek as “Pre-Greek” loans — that is, as Minoan loans. Beekes in the *Etymological Dictionary of Greek* (2010) classifies them as “Pre-Greek” without knowing that **these** are the Minoan words. We identified them at their source — in Linear A tablets.
+
+### DI-PA = depas — the earliest attestation in the world (k*=0.88 ★)
+
+On tablet PH7a (Phaistos, ~1800 BCE) the word DI-PA appears as the heading of a vessel inventory. In Linear B it is written de-pa. In Homer it becomes dépas amphikýpellon. This word travels for 1,000 years — from Minoan Phaistos to Homeric Troy — and the form DI-PA is the **earliest documented record** in the world.
+
+### MI = honey — original discovery (k*=0.85 ★)
+
+We discovered that the sign MI functions as a determinative for honey — a discovery that **no one had proposed** in the literature. Three independent pieces of evidence:
+
+- **OLE+MI** (14 tablets): olive oil + honey = honeyed oil
+- **KH9** (Chania): MI ⅓ between figs ¼ and cyperus ½ in a medicinal recipe
+- **U-DI-MI** (HT117a): probable mead
+
+In Linear B, me-ri = honey. Logograms use acrophonic principles with the first syllabogram (NI = figs from Cretan *nikuleon*, Palaima). The principle works cross-script. Archaeology confirms it: McGovern (U. Penn, 1997) detected honey and fermentation markers in Minoan ceramics — the Minoans produced mead.
+
+### Semitic roots in Minoan bureaucracy
+
+Minoan Crete was a commercial hub between the Aegean and the Near East. This is reflected in the vocabulary:
+
+**KU-RO = כֹּל (kol) “total”** (k*=0.92 ★)  
+The most frequent term in Linear A. It appears at the end of almost every tablet as a total/sum. Linear A has no L-series signs — it writes /l/ as R (script constraint). Linear B **did not inherit** the word — it uses TO-SO (tóson). The Semitic root K-L (כֹּל “totality”) fits phonetically and semantically.
+
+**A-DU = Akkadian adû “work assignment”** (k*=0.78)  
+Appears in distribution tablets (HT95, HT86a) where grain is allocated to cities. The earlier interpretation “tax” proved to be an overclaim — the meaning “assignment/obligation” fits the data better.
+
+**MI+JA+RU = מֹר (mor) “myrrh/perfume”** (k*=0.75)  
+A compound ideogram appearing in pharmaceutical formulas. Myrrh was a valuable imported aromatic from Arabia and the Horn of Africa.
+
+**KI-RO = Semitic root “debt/deficit”** (k*=0.88)  
+Appears as a heading in “deficit lists” — tablets recording obligations/shortfalls. 3 tablets with perfect arithmetic: HT88 (6=6), HT117a (10=10), HT94b (5=5).
+
+**SU-PU = Akkadian sappu “metal vessel”** (k*=0.65 ⚠️)  
+Appears on 6 tablets including HT31 — an inventory of 3,775 vessels. The pan-Semitic root S-P (Hebrew סַף “bowl”) fits, but more documentation is needed.
+
+These Semitic roots do not mean that Minoan was a Semitic language. They mean that the Minoan bureaucracy **borrowed** commercial and accounting terms — exactly as modern Greek uses “budget”, “manager”, “dealer”.
+
+### 600 years of bureaucratic continuity
+
+We discovered an unbroken chain of vessel inventories:
+
+| Tablet | Location | Date | Script |
+|------|------|------|------|
+| PH7a | Phaistos | ~1800 BCE | Linear A |
+| HT31 | Hagia Triada | ~1500 BCE | Linear A |
+| PY Ta 641 | Pylos | ~1200 BCE | Linear B |
+
+The same word (DI-PA → de-pa → depas) in 3 scripts, 3 locations, 3 periods. The same bureaucratic practice (vessel inventory by type and quantity) for 600 years. This proves that Mycenaean bureaucracy was not invented anew — **it inherited the Minoan system.**
+
+### The method self-corrects
+
+Many hypotheses were rejected during the process:
+
+| Hypothesis | Reason for rejection |
+|-----------|----------------|
+| SI = asphodel | Acrophonic chain of 3 steps — excessive distance |
+| OLE+U = hydrélaion | Step-Distance 3 + corpus shows liquid oil, NOT water-oil |
+| Tax cities → center | The palaces only RECEIVE — the flow is the reverse |
+| DI→DE as “rule” | HT86b DI-DE proves DI ≠ DE within Linear A — downgraded to “case-by-case tendency” |
+| MA-KA-RI-TE = “makarites” | Does not explain the administrative context |
+
+These rejections **strengthen** the method — they show that we do not keep hypotheses that are unsupported.
+
+---
+
+## Project Files
+
+| File | Content |
+|-----|-----|
+| `CAPHTOR_MINOAN_METHOD_TRAINING_v8_7.md` | Full training protocol — the “Bible” of the method |
+| `CAPHTOR_MINOAN_METHOD_v8_7.md` | The method in reference format |
+| `Linear_A_Lexicon_v1_8.md` | Lexicon of 55+ documented entries |
+| `ΓΡΑΜΜΙΚΗ_Α_ΕΥΡΗΜΑΤΑ_MASTER_v3_1.md` | Master file of findings + tablet analyses |
+| `MI_UDI_Evidence_v1.md` | Documentation for MI = honey (original discovery) |
+| `inscriptions_table.md` | Corpus of 1,719 inscriptions (data source) |
+| `HT95ab_analysis_v3_FINAL.md` | Analysis of grain distribution tablet |
+| `HT91_v2_Τριστρωματικη_Αναλυση.md` | Layered analysis of 7 oil types |
+| `Linear_A_Corpus_Analysis_v8_4_v2.md` | Scan of 1,719 inscriptions — statistics |
+
+---
+
+## Statistics
+
+| Metric | Value |
+|------|------|
+| Inscriptions examined | 1,719 |
+| Unique sequences | 1,212 |
+| Identified terms | 55+ (k*≥0.70) + 2 candidates |
+| Identification rate | ~5% |
+| Gold Standard (k*≥0.88) | 13 |
+| Confirmed (k*=0.70–0.87) | 33 |
+| Kober pairs/triplets | 4 |
+| Tablets analyzed | 23+ |
+| Rejections | 8+ documented |
+
+---
+
+## What We DO NOT claim
+
+- We did not decipher the Minoan language
+- We cannot read a single sentence in Minoan
+- We do not know whether Minoan was Indo-European, Semitic, or something completely different
+- We do not know the grammar or syntax
+- k* < 0.70 are working hypotheses, NOT certainties
+- References to the Phaistos Disc are at a very early stage
+
+---
+
+## What We DO claim
+
+- That we understand the **function** of the majority of tablets (accounting, recipes, inventories, deficits)
+- That 55+ entries are documented with multiple independent criteria
+- That “Pre-Greek” words (Beekes) = Minoan loans identified at their source
+- That the Minoan bureaucracy used Semitic commercial terms
+- That the method is reproducible, testable, and self-correcting
+- That MI = honey is an original discovery with triple documentation
+
+---
+
+## Tools
+
+The method was developed through collaboration between a human (domain expertise, Greek linguistic knowledge, judgment) and AI (Claude, Anthropic — corpus scanning, cross-referencing, web search, documentation). The AI was used as a research assistant, NOT as an autonomous analyst. Every finding was checked and validated by the researcher.
+
+---
+
+## Contact
+
+Ioannis Anagnostakis · Crete, Greece
+
+---
+
+*Caphtor-Minoan Method v8.7 · Lexicon v1.8 · March 2026 · CC BY 4.0*  
+Anagnostakis, I. (2026). CAPHTOR-MINOAN METHOD – EDITION 8.7 (8.7). Zenodo. https://doi.org/10.5281/zenodo.19036648
+
